@@ -48,28 +48,28 @@ Will display all integrated and usable Coins.
 
 > Deposit Usage:
 
-```Twitter
+```shell
 
 <code>coins</code>
 
 Example:
  - coins
 ```
-```Slack
+```ruby
 
 <code>/coins</code>
 
 Example:
  - /coins
 ```
-```Telegram
+```python
 
 <code>/coins</code>
 
 Example:
  - /coins
 ```
-```Discord
+```javascript
 
 <code>/coins</code>
 
@@ -89,7 +89,7 @@ The Integration will be changed to the Coin and all other Commands will be using
 
 > Changecoin Usage:
 
-```Twitter
+```shell
 
 <code>changecoin <coin></code>
 
@@ -98,7 +98,7 @@ Example:
  - /changecoin tzc
  - /changecoin nxs
 ```
-```Slack
+```python
 
 <code>/changecoin <coin></code>
 
@@ -107,7 +107,7 @@ Example:
  - /changecoin tzc
  - /changecoin nxs
 ```
-```Telegram
+```ruby
 
 <code>/changecoin <coin></code>
 
@@ -116,7 +116,7 @@ Example:
  - /changecoin tzc
  - /changecoin nxs
 ```
-```Discord
+```javascript
 
 <code>/changecoin <coin></code>
 
@@ -134,28 +134,28 @@ To be able to tip people, you first have to load up your wallet with a desired a
 
 > Deposit Usage:
 
-```Twitter
+```shell
 
 <code>deposit <coin></code>
 
 Example:
  - deposit
 ```
-```Slack
+```python
 
 <code>/deposit <coin></code>
 
 Example:
  - /deposit
 ```
-```Telegram
+```ruby
 
 <code>/deposit<coin></code>
 
 Example:
  - /deposit
 ```
-```Discord
+```javascript
 
 <code>/deposit <coin></code>
 
@@ -173,28 +173,28 @@ When your Coins are confirmed, you are ready to tip!
 
 > Balance Usage:
 
-```Twitter
+```shell
 
 <code>balance <coin></code>
 
 Example:
  - balance
 ```
-```Slack
+```python
 
 <code>/balance <coin></code>
 
 Example:
  - /balance
 ```
-```Telegram
+```ruby
 
 <code>/balance<coin></code>
 
 Example:
  - /balance
 ```
-```Discord
+```javascript
 
 <code>/balance <coin></code>
 
@@ -213,10 +213,12 @@ Command: tip @<username> <amount> <message>
 
 This Tip is designed to Tip a single person. You can also add a nice message to the Tip what may be the reason for the Tip.
 
+<aside class="warning"> Remember to add the Coin you want to Tip on Twitter!</aside>
+
 
 > Tip Usage:
 
-```Twitter
+```shell
 
 <code>Post a Status with '@coinkit_ tip @user1 <amount> [#|$]<coin>'</code>
 
@@ -225,10 +227,9 @@ Example:
  - @coinkit_ tip @elonmusk 10 #nxs
  - @coinkit_ tip @elonmusk 10 $tzc
  - @coinkit_ tip @elonmusk 10 #TUBE
- <aside class="warning"> Remember to add the Coin you want to Tip on Twitter!</aside>
 ```
 
-```Slack
+```python
 
 <code>/tip @Username <amount>></code>
 
@@ -236,7 +237,7 @@ Example:
  - /tip @GrumpyCat 10
 ```
 
-```Telegram
+```ruby
 
 <code>/tip @Username <amount>></code>
 
@@ -244,7 +245,7 @@ Example:
  - /tip @GrumpyCat 10
 ```
 
-```Discord
+```javascript
 
 <code>/tip @Username <amount>></code>
 
@@ -260,7 +261,7 @@ With this function you can directly tip the person in a reply without the need o
 
 > Reply Usage:
 
-```Twitter
+```shell
 
 <code>Reply to a Post/Comment '@coinkit_ tip @user1 <amount> [#|$]<coin>'</code>
 
@@ -270,7 +271,7 @@ Example:
  Be careful, you will tip everyone who is Quoted in your reply!</aside>
 ```
 
-```Slack
+```python
 
 <code>/tip <amount>></code>
 
@@ -278,7 +279,7 @@ Example:
  - /tip 10
 ```
 
-```Telegram
+```ruby
 
 <code>/tip <amount>></code>
 
@@ -286,7 +287,7 @@ Example:
  - /tip 10
 ```
 
-```Discord
+```javascript
 
 <code>/tip <amount>></code>
 
@@ -309,7 +310,7 @@ The amount choosen on this command will be tipped to all people, so every person
 
 > Channel-Tip Usage:
 
-```Twitter
+```shell
 
 On Twitter we have no channels, to tip a bunch of people, just chain the usernames in your post.
 
@@ -323,7 +324,7 @@ Example:
  <aside class="warning"> Remember to add the Coin you want to Tip on Twitter!</aside>
 ```
 
-```Slack
+```python
 
 <code>/tip @channel <amount> [10|userAmount]></code>
 
@@ -338,7 +339,7 @@ Example:
  # Tips 5 people 10 Coins, so 50 Coins in Total
 ```
 
-```Telegram
+```ruby
 
 <code>/tip @channel <amount> [10|userAmount]></code>
 
@@ -353,7 +354,7 @@ Example:
  # Tips 5 people 10 Coins, so 50 Coins in Total
 ```
 
-```Discord
+```javascript
 
 <code>/tip @channel <amount> [10|userAmount]></code>
 
@@ -375,7 +376,7 @@ Rain is a command which is spread accross all Social Channels, mostly used in Di
 
 > Rain Usage:
 
-```Twitter
+```shell
 
 On Twitter we have no channels, to tip a bunch of people, just chain the usernames in your post.
 
@@ -389,7 +390,7 @@ Example:
  <aside class="warning"> Remember to add the Coin you want to Tip on Twitter!</aside>
 ```
 
-```Slack
+```python
 
 <code>/rain <amount> [10|userAmount]></code>
 
@@ -404,7 +405,7 @@ Example:
  # Rains 10 Coins on 5 people, 5 Coins in total, each person gets 2 Coins.
 ```
 
-```Telegram
+```ruby
 
 <code>/rain <amount> [10|userAmount]></code>
 
@@ -419,7 +420,7 @@ Example:
  # Rains 10 Coins on 5 people, 5 Coins in total, each person gets 2 Coins.
 ```
 
-```Discord
+```javascript
 
 <code>/rain <amount> [10|userAmount]></code>
 
@@ -443,14 +444,14 @@ Default User amount is 10 and the time-limit is set to 5 minutes.
 
 > Rain Usage:
 
-```Twitter
+```shell
 
 <aside class="warning">
 Right now there is no support for that kind of giveaway on Twitter.
 </aside>
 ```
 
-```Slack
+```python
 
 <code>/coingiveaway <amount> [10|userAmount]></code>
 
@@ -465,14 +466,14 @@ Example:
  # Starts a Giveaway with 10 Coins for 5 people, 50 Coins in total, each person gets 10 Coins.
 ```
 
-```Telegram
+```ruby
 
 <aside class="warning">
 Right now there is no support for that kind of giveaway on Telegram.
 </aside>
 ```
 
-```Discord
+```javascript
 
 <code>/coingiveaway <amount> [10|userAmount]></code>
 
@@ -494,7 +495,7 @@ All good things come to an end, if you want to withdraw your coins to your local
 
 > Withdraw Usage:
 
-```Twitter
+```shell
 
 <code>withdraw <address> <amount></code>
 
@@ -502,7 +503,7 @@ Example:
  - withdraw 1GanlkaIP9234ANakljra89xDAfajkl 10
  # Withdraws 10 Coins to 1GanlkaIP9234ANakljra89xDAfajkl
 ```
-```Slack
+```python
 
 <code>/withdraw <address> <amount></code>
 
@@ -510,7 +511,7 @@ Example:
  - /withdraw 1GanlkaIP9234ANakljra89xDAfajkl 10
  # Withdraws 10 Coins to 1GanlkaIP9234ANakljra89xDAfajkl
 ```
-```Telegram
+```ruby
 
 <code>/withdraw <address> <amount></code>
 
@@ -518,7 +519,7 @@ Example:
  - /withdraw 1GanlkaIP9234ANakljra89xDAfajkl 10
  # Withdraws 10 Coins to 1GanlkaIP9234ANakljra89xDAfajkl
 ```
-```Discord
+```javascript
 
 <code>/withdraw <address> <amount></code>
 
@@ -535,7 +536,7 @@ This Command show the Price of the Coin in BTC,USD,EUR,GBP,KRW. The default coin
 
 > Price Usage:
 
-```Twitter
+```shell
 
 <code>price <coin></code>
 
@@ -544,7 +545,7 @@ Example:
  - price tzc
  - price tube
 ```
-```Slack
+```python
 
 <code>/price <coin></code>
 
@@ -553,7 +554,7 @@ Example:
  - /price tzc
  - /price tube
 ```
-```Telegram
+```ruby
 
 <code>/price <coin></code>
 
@@ -562,7 +563,7 @@ Example:
  - /price tzc
  - /price tube
 ```
-```Discord
+```javascript
 
 <code>/price <coin></code>
 
@@ -580,7 +581,7 @@ Our Convert feature is designed to calculate the Value of Coins into another Coi
 
 > Convert Usage:
 
-```Twitter
+```shell
 
 <code>convert [amount] <fromCoin> [to|in] <toCoin|usd></code>
 
@@ -589,7 +590,7 @@ Example:
  - convert 800 tzc to usd
  - convert 10 tube to pivx
 ```
-```Slack
+```python
 
 <code>convert [amount] <fromCoin> [to|in] <toCoin|usd></code>
 
@@ -598,7 +599,7 @@ Example:
  - /convert 800 tzc to usd
  - /convert 10 tube to pivx
 ```
-```Telegram
+```ruby
 
 <code>convert [amount] <fromCoin> [to|in] <toCoin|usd></code>
 
@@ -607,7 +608,7 @@ Example:
  - /convert 800 tzc to usd
  - /convert 10 tube to pivx
 ```
-```Discord
+```javascript
 
 <code>convert [amount] <fromCoin> [to|in] <toCoin|usd></code>
 
@@ -625,28 +626,28 @@ Audit Time! - You will get all information we have about you. These information 
 
 > Auditme Usage:
 
-```Twitter
+```shell
 
 <code>auditme </code>
 
 Example:
  - auditme
 ```
-```Slack
+```python
 
 <code>/auditme </code>
 
 Example:
  - /auditme
 ```
-```Telegram
+```ruby
 
 <code>/auditme </code>
 
 Example:
  - /auditme
 ```
-```Discord
+```javascript
 
 <code>/auditme </code>
 
@@ -666,28 +667,28 @@ Ooops! Something went wrong? - Please use CoinKit Support if any Bug or error oc
 
 > Coinkitsupport Usage:
 
-```Twitter
+```shell
 
 <code>coinkitsupport </code>
 
 Example:
  - coinkitsupport
 ```
-```Slack
+```python
 
 <code>/coinkitsupport </code>
 
 Example:
  - /coinkitsupport
 ```
-```Telegram
+```ruby
 
 <code>/coinkitsupport </code>
 
 Example:
  - /coinkitsupport
 ```
-```Discord
+```javascript
 
 <code>/coinkitsupport </code>
 
@@ -703,28 +704,28 @@ Any suggestions or feedback? - We would love to hear it! Just use this function 
 
 > Coinkitfeedback Usage:
 
-```Twitter
+```shell
 
 <code>coinkitfeedback <text> </code>
 
 Example:
  - coinkitfeedback This is constructive feedback!
 ```
-```Slack
+```python
 
 <code>/coinkitfeedback <text> </code>
 
 Example:
  - /coinkitfeedback This is constructive feedback!
 ```
-```Telegram
+```ruby
 
 <code>/coinkitfeedback <text> </code>
 
 Example:
  - /coinkitfeedback This is constructive feedback!
 ```
-```Discord
+```javascript
 
 <code>/coinkitfeedback <text> </code>
 
