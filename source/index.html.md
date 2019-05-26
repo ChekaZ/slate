@@ -388,7 +388,6 @@ Example:
  - @coinkit_ tip @elonmusk @jack @justinbieber @katyperry 10 $tzc
  - @coinkit_ tip @elonmusk @jack @justinbieber @katyperry 10 #TUBE
  <aside class="warning"> Remember to add the Coin you want to Tip on Twitter!</aside>
-```
 
 ```python
 
@@ -442,13 +441,16 @@ An interesting and unique feature to give away coins is CoinGiveAway! This featu
 This Giveaway is time and user limited! - The creator can choose how many people get the opportunity to receive coins. Has the time run out or the limit of people is reached, the giveaway is over and all participants will get rewarded.
 Default User amount is 10 and the time-limit is set to 5 minutes.
 
+<aside class="warning">
+Right now there is no support for that kind of giveaway on Twitter & Telegram.
+</aside>
+
 > Rain Usage:
 
 ```shell
 
-<aside class="warning">
 Right now there is no support for that kind of giveaway on Twitter.
-</aside>
+
 ```
 
 ```python
@@ -467,10 +469,7 @@ Example:
 ```
 
 ```ruby
-
-<aside class="warning">
 Right now there is no support for that kind of giveaway on Telegram.
-</aside>
 ```
 
 ```javascript
@@ -503,6 +502,7 @@ Example:
  - withdraw 1GanlkaIP9234ANakljra89xDAfajkl 10
  # Withdraws 10 Coins to 1GanlkaIP9234ANakljra89xDAfajkl
 ```
+
 ```python
 
 /withdraw <address> <amount>
@@ -511,6 +511,7 @@ Example:
  - /withdraw 1GanlkaIP9234ANakljra89xDAfajkl 10
  # Withdraws 10 Coins to 1GanlkaIP9234ANakljra89xDAfajkl
 ```
+
 ```ruby
 
 /withdraw <address> <amount>
@@ -519,6 +520,7 @@ Example:
  - /withdraw 1GanlkaIP9234ANakljra89xDAfajkl 10
  # Withdraws 10 Coins to 1GanlkaIP9234ANakljra89xDAfajkl
 ```
+
 ```javascript
 
 /withdraw <address> <amount>
