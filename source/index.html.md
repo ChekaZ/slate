@@ -50,28 +50,28 @@ Will display all integrated and usable Coins.
 
 ```shell
 
-<code>coins</code>
+coins
 
 Example:
  - coins
 ```
 ```ruby
 
-<code>/coins</code>
+/coins
 
 Example:
  - /coins
 ```
 ```python
 
-<code>/coins</code>
+/coins
 
 Example:
  - /coins
 ```
 ```javascript
 
-<code>/coins</code>
+/coins
 
 Example:
  - /coins
@@ -253,11 +253,13 @@ Example:
  - /tip @GrumpyCat 10
 ```
 
-## Reply-Tip
+### Reply-Tip
 
 `Command: tip <amount> <message>`
 
 With this function you can directly tip the person in a reply without the need of an extra mention!
+<aside class="warning"> 
+ Be careful, you will tip everyone who is Quoted in your reply!</aside>
 
 > Reply Usage:
 
@@ -267,8 +269,7 @@ Reply to a Post/Comment '@coinkit_ tip @user1 <amount> [#|$]<coin>'
 
 Example:
  - @coinkit_ tip 10 tzc
- <aside class="warning"> 
- Be careful, you will tip everyone who is Quoted in your reply!</aside>
+ 
 ```
 
 ```python
@@ -276,7 +277,7 @@ Example:
 /tip <amount>
 
 Example:
- - /tip 10
+/tip 10
 ```
 
 ```ruby
@@ -284,7 +285,7 @@ Example:
 /tip <amount>
 
 Example:
- - /tip 10
+Reply Tip is not available on Slack.
 ```
 
 ```javascript
@@ -292,7 +293,7 @@ Example:
 /tip <amount>
 
 Example:
- - /tip 10
+Reply Tip is not available on Discord.
 ```
 
 ## Multi-Tips
