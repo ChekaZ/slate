@@ -274,10 +274,8 @@ Example:
 
 ```python
 
-/tip <amount>
+Reply Tip is not available on Slack.
 
-Example:
-/tip 10
 ```
 
 ```ruby
@@ -285,7 +283,7 @@ Example:
 /tip <amount>
 
 Example:
-Reply Tip is not available on Slack.
+/tip 10
 ```
 
 ```javascript
