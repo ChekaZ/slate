@@ -33,7 +33,7 @@ Coinkit has a lot of functions which will be explained in this section.
 
 ## Tiphelp
 
-`Command: Tiphelp´
+`Command: Tiphelp`
 
 Tiphelp will always help you out as it lists all Commands CoinKit has.
 <aside class="notice">
@@ -42,7 +42,7 @@ To prevent spamming this Command is only available in private chat with CoinKit.
 
 ## Coins
 
-`Command: Coins´
+`Command: Coins`
 
 Will display all integrated and usable Coins.
 
@@ -79,7 +79,7 @@ Example:
 
 ## ChangeCoin
 
-`Command: changecoin <coin>´
+`Command: changecoin <coin>`
 
 This Command changes the Coin you or your Channel is using. It has two usecases:
 - Set a default Coin for a Channel (Slack, Telegram, Discord), this can only be done by an Admin or ChannelOwner (Telegram).
@@ -128,7 +128,7 @@ Example:
 
 ## Deposit
 
-`Command: Deposit´
+`Command: Deposit`
 
 To be able to tip people, you first have to load up your wallet with a desired amount of Coins. With this command your personal deposit address will be created, so the Coins you transfer there will be assigned to you. Now you can get started.
 
@@ -166,7 +166,7 @@ Example:
 
 ## Balance
 
-`Command: Balance´
+`Command: Balance`
 
 Balance will show your Confirmed and Unconfirmed Balance. After you have deposited Coins to your Deposit-Address, you need to wait for Confirmations, Confirmations depend on the Coin you are using and it may take up to a few minutes until they are confirmed. Unconfirmed Coins are shown in round brackets.
 When your Coins are confirmed, you are ready to tip!
@@ -209,7 +209,7 @@ This Section is all about Tipping, Single-Tips, Multi-Tips and Coingiveaways.
 
 ## Single-Tip
 
-`Command: tip @<username> <amount> <message>´
+`Command: tip @<username> <amount> <message>`
 
 This Tip is designed to Tip a single person. You can also add a nice message to the Tip what may be the reason for the Tip.
 
@@ -255,7 +255,7 @@ Example:
 
 ## Reply-Tip
 
-`Command: tip <amount> <message>´
+`Command: tip <amount> <message>`
 
 With this function you can directly tip the person in a reply without the need of an extra mention!
 
@@ -302,7 +302,7 @@ On top of that CoinKit Multi-Tips are based on activity, who hasnt been active, 
 
 ## Channel-Tip
 
-`Command: tip @channel <amount> [user-amount]´
+`Command: tip @channel <amount> [user-amount]`
 
 Tipping a whole Channel, doesnt that sound like fun? - Channel-Tip makes that possible, but we have set the default to 10 people, so if you forget to insert the additional parameter only 10 people will get tipped.
 The amount choosen on this command will be tipped to all people, so every person will get the amount you have inserted, it wont get split between them!
@@ -314,7 +314,7 @@ The amount choosen on this command will be tipped to all people, so every person
 
 On Twitter we have no channels, to tip a bunch of people, just chain the usernames in your post.
 
-´´´Post a Status with '@coinkit_ tip @user1 [@user.. @userN] <amount> [#|$]<coin>'´´´
+Post a Status with '@coinkit_ tip @user1 [@user.. @userN] <amount> [#|$]<coin>'
 
 Example:
  - @coinkit_ tip @elonmusk @jack @justinbieber @katyperry 10 tzc
@@ -370,7 +370,7 @@ Example:
 
 ## Rain
 
-`Command: rain <amount> [user-amount]´
+`Command: rain <amount> [user-amount]`
 
 Rain is a command which is spread accross all Social Channels, mostly used in Discord! - Rain does divide a given amount of Coins to a desired amount of People, so basicly "rain" on them. This Feature is also based on activity as well as having a default size of 10 people.
 
@@ -436,7 +436,7 @@ Example:
 
 ## Coingiveaway
 
-`Command: coingiveaway <amount> [user-amount]´
+`Command: coingiveaway <amount> [user-amount]`
 
 An interesting and unique feature to give away coins is CoinGiveAway! This feature is based on activity, to receive a tip, users have to interact with the giveaway and click a moneybag to be eligible for this type of giveaway.
 This Giveaway is time and user limited! - The creator can choose how many people get the opportunity to receive coins. Has the time run out or the limit of people is reached, the giveaway is over and all participants will get rewarded.
@@ -489,7 +489,7 @@ Example:
 
 ## Withdraw
 
-`Command: withdraw <address> <amount>´
+`Command: withdraw <address> <amount>`
 
 All good things come to an end, if you want to withdraw your coins to your local wallet you will have to use our Withdraw function! This command initiates directly a transfer to the given address.
 
@@ -530,7 +530,7 @@ Example:
 
 ## Price
 
-`Command: price <coin>´
+`Command: price <coin>`
 
 This Command show the Price of the Coin in BTC,USD,EUR,GBP,KRW. The default coin will be taken if no additional parameter is passed, but it can be applied to all integrated Coins.
 
@@ -575,7 +575,7 @@ Example:
 
 ## Convert
 
-`Command: convert [amount] <fromCoin> [to|in] <toCoin|usd>´
+`Command: convert [amount] <fromCoin> [to|in] <toCoin|usd>`
 
 Our Convert feature is designed to calculate the Value of Coins into another Coin or USD.
 
@@ -620,7 +620,7 @@ Example:
 
 ## Audit
 
-`Command: auditme´
+`Command: auditme`
 
 Audit Time! - You will get all information we have about you. These information include Account ID, Addresses of the selected Coin, Confirmed and Unconfirmed Balance.
 
@@ -661,7 +661,7 @@ We are happy to receive Bug reports, feedback or suggestions, please use the fol
 
 ## CoinKitSupport
 
-`Command: Coinkitsupport´
+`Command: Coinkitsupport`
 
 Ooops! Something went wrong? - Please use CoinKit Support if any Bug or error occours which should not happen! This function is only for bug reports, not for personal assisting on how to use the CoinKit ;)
 
@@ -698,7 +698,7 @@ Example:
 
 ## CoinKitFeedback
 
-`Command: Coinkitfeedback <text>´
+`Command: Coinkitfeedback <text>`
 
 Any suggestions or feedback? - We would love to hear it! Just use this function and we assure you that we will take a close look at it!
 
