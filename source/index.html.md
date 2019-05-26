@@ -373,6 +373,8 @@ Example:
 
 Rain is a command which is spread accross all Social Channels, mostly used in Discord! - Rain does divide a given amount of Coins to a desired amount of People, so basicly "rain" on them. This Feature is also based on activity as well as having a default size of 10 people.
 
+ <aside class="warning"> Remember to add the Coin you want to Tip on Twitter!</aside>
+
 > Rain Usage:
 
 ```shell
@@ -386,7 +388,6 @@ Example:
  - @coinkit_ tip @elonmusk @jack @justinbieber @katyperry 10 #nxs
  - @coinkit_ tip @elonmusk @jack @justinbieber @katyperry 10 $tzc
  - @coinkit_ tip @elonmusk @jack @justinbieber @katyperry 10 #TUBE
- <aside class="warning"> Remember to add the Coin you want to Tip on Twitter!</aside>
 ```
 
 ```python
