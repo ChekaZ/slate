@@ -321,7 +321,6 @@ Example:
  - @coinkit_ tip @elonmusk @jack @justinbieber @katyperry 10 #nxs
  - @coinkit_ tip @elonmusk @jack @justinbieber @katyperry 10 $tzc
  - @coinkit_ tip @elonmusk @jack @justinbieber @katyperry 10 #TUBE
- <aside class="warning"> Remember to add the Coin you want to Tip on Twitter!</aside>
 ```
 
 ```python
@@ -367,6 +366,7 @@ Example:
 
  - /tip @channel 10 5
  # Tips 5 people 10 Coins, so 50 Coins in Total
+```
 
 ## Rain
 
@@ -388,6 +388,7 @@ Example:
  - @coinkit_ tip @elonmusk @jack @justinbieber @katyperry 10 $tzc
  - @coinkit_ tip @elonmusk @jack @justinbieber @katyperry 10 #TUBE
  <aside class="warning"> Remember to add the Coin you want to Tip on Twitter!</aside>
+```
 
 ```python
 
@@ -432,6 +433,7 @@ Example:
 
  - /rain 10 5
  # Rains 10 Coins on 5 people, 5 Coins in total, each person gets 2 Coins.
+```
 
 ## Coingiveaway
 
@@ -485,6 +487,7 @@ Example:
 
  - /rain 10 5
  # Starts a Giveaway with 10 Coins for 5 people, 50 Coins in total, each person gets 10 Coins.
+```
 
 ## Withdraw
 
