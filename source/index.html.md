@@ -2,10 +2,10 @@
 title: Coinkit Wiki
 
 language_tabs: # must be one of https://git.io/vQNgJ
-  - Twitter
-  - Telegram
-  - Slack
-  - Discord
+  - shell: Twitter
+  - ruby: Telegram
+  - python: Slack
+  - javascript: Discord
 
 toc_footers:
   - <a href='#'>The Future of Tipping</a>
@@ -299,7 +299,7 @@ Example:
 This Feature is designed to spread the love even more! You can tip as many people as you like in your Channel, default is 10. We have implemented two ways of tipping the crowd, Channel-Tip and Rain.
 On top of that CoinKit Multi-Tips are based on activity, who hasnt been active, is idle, AFK or offline will not get tipped. So, be active!
 
-#### Channel-Tip
+### Channel-Tip
 
 Command: tip @channel <amount> [user-amount]
 
@@ -367,7 +367,7 @@ Example:
  - /tip @channel 10 5
  # Tips 5 people 10 Coins, so 50 Coins in Total
 
-#### Rain
+### Rain
 
 Command: rain <amount> [user-amount]
 
