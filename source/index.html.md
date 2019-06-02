@@ -660,6 +660,62 @@ Example:
  - /auditme
 ```
 
+#Tweet Monetizing
+
+`Post a Status with '@coinkit_ mon <amount> <userAmount> <coin>'`
+
+Monetize your tweets with that feature in a truely unique way. Every retweet will instantly receive the given amount of coins, its fully automated and ends after the amount has been paid out.
+
+How does it work?
+
+Post a status on Twitter, starting with this line:
+
+'@coinkit_ mon <amount> <userAmount> <coin>'
+
+Afterwards @Coinkit_ will retweet and like your message as well as reply with this message:
+
+'Monetizing is set up for this Tweet! The next <userAmount> Users will receive each <amount> <coin> for their retweet!'
+
+<aside class="warning">
+This is a pilot program which works only with Trezarcoin (TZC) right now.
+</aside>
+
+```shell
+
+Post a status on Twitter, starting with this line:
+
+'@coinkit_ mon <amount> <userAmount> <coin>'
+
+Example:
+ - @coinkit_ mon 10 20 tzc
+ # Monetizes a tweet for 20 people, each retweet gets 10 Coins.
+ - @coinkit_ mon 500 12 tzc
+ # Monetizes a tweet for 20 people, each retweet gets 10 Coins.
+ - @coinkit_ mon 25 10 tzc
+ # Monetized a tweet for 20 people, each retweet gets 10 Coins.
+ - @coinkit_ mon 50 50 tzc
+ # Monetized a tweet for 20 people, each retweet gets 10 Coins.
+```
+
+```python
+
+This Feature is not supported on Slack.
+
+```
+
+```ruby
+
+This Feature is not supported on Telegram.
+
+```
+
+```javascript
+
+This Feature is not supported on Discord.
+
+```
+
+
 #Support 
 
 We are happy to receive Bug reports, feedback or suggestions, please use the following commands to send us your thoughts!
