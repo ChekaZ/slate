@@ -666,19 +666,21 @@ Example:
 
 Monetize your tweets with that feature in a truely unique way. Every retweet will instantly receive the given amount of coins, its fully automated and ends after the amount has been paid out.
 
-How does it work?
+*How does it work?*
 
 Post a status on Twitter, starting with this line:
 
-'@coinkit_ mon <amount> <userAmount> <coin>'
+@coinkit_ mon <amount> <userAmount> <coin>
 
-Afterwards @coinkit_ will retweet and like your message as well as reply with this message:
+If you did everything correctly, @coinkit_ will retweet and like your message as well as reply with this message:
 
-'Monetizing is set up for this Tweet! The next <userAmount> Users will receive each <amount> <coin> for their retweet!'
+`Monetizing is set up for this Tweet! The next <userAmount> Users will receive each <amount> <coin> for their retweet!`
 
 <aside class="warning">
 This is a pilot program which works only with Trezarcoin (TZC) right now.
 </aside>
+
+> Tweet Monetization Usage:
 
 ```shell
 
