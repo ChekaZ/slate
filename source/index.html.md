@@ -672,7 +672,7 @@ Post a status on Twitter, starting with this line:
 
 '@coinkit_ mon <amount> <userAmount> <coin>'
 
-Afterwards @Coinkit_ will retweet and like your message as well as reply with this message:
+Afterwards @coinkit_ will retweet and like your message as well as reply with this message:
 
 'Monetizing is set up for this Tweet! The next <userAmount> Users will receive each <amount> <coin> for their retweet!'
 
@@ -688,13 +688,13 @@ Post a status on Twitter, starting with this line:
 
 Example:
  - @coinkit_ mon 10 20 tzc
- # Monetizes a tweet for 20 people, each retweet gets 10 Coins.
+ # Monetizes a tweet for 20 people, each retweet gets 10 Coins, total of 200 Coins.
  - @coinkit_ mon 500 12 tzc
- # Monetizes a tweet for 20 people, each retweet gets 10 Coins.
+ # Monetizes a tweet for 12 people, each retweet gets 500 Coins, total of 6000 Coins.
  - @coinkit_ mon 25 10 tzc
- # Monetized a tweet for 20 people, each retweet gets 10 Coins.
+ # Monetizes a tweet for 10 people, each retweet gets 25 Coins, total of 250 Coins.
  - @coinkit_ mon 50 50 tzc
- # Monetized a tweet for 20 people, each retweet gets 10 Coins.
+ # Monetizes a tweet for 50 people, each retweet gets 50 Coins, total of 2500 Coins.
 ```
 
 ```python
