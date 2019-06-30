@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>API Reference</title>
+    <title>Coinkit Wiki</title>
 
     <style>
       .highlight table td { padding: 5px; }
@@ -211,10 +211,10 @@
     <div class="toc-wrapper">
       <img src="images/logo.png" class="logo" alt="Logo" />
         <div class="lang-selector">
-              <a href="#" data-language-name="shell">shell</a>
-              <a href="#" data-language-name="ruby">ruby</a>
-              <a href="#" data-language-name="python">python</a>
-              <a href="#" data-language-name="javascript">javascript</a>
+              <a href="#" data-language-name="shell">Twitter</a>
+              <a href="#" data-language-name="ruby">Telegram</a>
+              <a href="#" data-language-name="python">Slack</a>
+              <a href="#" data-language-name="javascript">Discord</a>
         </div>
         <div class="search">
           <input type="text" class="search" id="input-search" placeholder="Search">
@@ -222,282 +222,693 @@
         <ul class="search-results"></ul>
       <ul id="toc" class="toc-list-h1">
           <li>
-            <a href="#introduction" class="toc-h1 toc-link" data-title="Introduction">Introduction</a>
-          </li>
-          <li>
-            <a href="#authentication" class="toc-h1 toc-link" data-title="Authentication">Authentication</a>
-          </li>
-          <li>
-            <a href="#kittens" class="toc-h1 toc-link" data-title="Kittens">Kittens</a>
+            <a href="#getting-started" class="toc-h1 toc-link" data-title="Getting Started">Getting Started</a>
               <ul class="toc-list-h2">
                   <li>
-                    <a href="#get-all-kittens" class="toc-h2 toc-link" data-title="Get All Kittens">Get All Kittens</a>
-                  </li>
-                  <li>
-                    <a href="#get-a-specific-kitten" class="toc-h2 toc-link" data-title="Get a Specific Kitten">Get a Specific Kitten</a>
-                  </li>
-                  <li>
-                    <a href="#delete-a-specific-kitten" class="toc-h2 toc-link" data-title="Delete a Specific Kitten">Delete a Specific Kitten</a>
+                    <a href="#installation" class="toc-h2 toc-link" data-title="Installation">Installation</a>
                   </li>
               </ul>
           </li>
           <li>
-            <a href="#errors" class="toc-h1 toc-link" data-title="Errors">Errors</a>
+            <a href="#commands" class="toc-h1 toc-link" data-title="Commands">Commands</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#tiphelp" class="toc-h2 toc-link" data-title="Tiphelp">Tiphelp</a>
+                  </li>
+                  <li>
+                    <a href="#coins" class="toc-h2 toc-link" data-title="Coins">Coins</a>
+                  </li>
+                  <li>
+                    <a href="#changecoin" class="toc-h2 toc-link" data-title="ChangeCoin">ChangeCoin</a>
+                  </li>
+                  <li>
+                    <a href="#deposit" class="toc-h2 toc-link" data-title="Deposit">Deposit</a>
+                  </li>
+                  <li>
+                    <a href="#balance" class="toc-h2 toc-link" data-title="Balance">Balance</a>
+                  </li>
+                  <li>
+                    <a href="#tipping" class="toc-h2 toc-link" data-title="Tipping">Tipping</a>
+                  </li>
+                  <li>
+                    <a href="#single-tip" class="toc-h2 toc-link" data-title="Single-Tip">Single-Tip</a>
+                  </li>
+                  <li>
+                    <a href="#multi-tips" class="toc-h2 toc-link" data-title="Multi-Tips">Multi-Tips</a>
+                  </li>
+                  <li>
+                    <a href="#channel-tip" class="toc-h2 toc-link" data-title="Channel-Tip">Channel-Tip</a>
+                  </li>
+                  <li>
+                    <a href="#rain" class="toc-h2 toc-link" data-title="Rain">Rain</a>
+                  </li>
+                  <li>
+                    <a href="#coingiveaway" class="toc-h2 toc-link" data-title="Coingiveaway">Coingiveaway</a>
+                  </li>
+                  <li>
+                    <a href="#withdraw" class="toc-h2 toc-link" data-title="Withdraw">Withdraw</a>
+                  </li>
+                  <li>
+                    <a href="#price" class="toc-h2 toc-link" data-title="Price">Price</a>
+                  </li>
+                  <li>
+                    <a href="#convert" class="toc-h2 toc-link" data-title="Convert">Convert</a>
+                  </li>
+                  <li>
+                    <a href="#audit" class="toc-h2 toc-link" data-title="Audit">Audit</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#tweet-monetizing" class="toc-h1 toc-link" data-title="Tweet Monetizing">Tweet Monetizing</a>
+          </li>
+          <li>
+            <a href="#support" class="toc-h1 toc-link" data-title="Support">Support</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#coinkitsupport" class="toc-h2 toc-link" data-title="CoinKitSupport">CoinKitSupport</a>
+                  </li>
+                  <li>
+                    <a href="#coinkitfeedback" class="toc-h2 toc-link" data-title="CoinKitFeedback">CoinKitFeedback</a>
+                  </li>
+              </ul>
           </li>
       </ul>
         <ul class="toc-footer">
-            <li><a href='#'>Sign Up for a Developer Key</a></li>
-            <li><a href='https://github.com/lord/slate'>Documentation Powered by Slate</a></li>
+            <li><a href='#'>The Future of Tipping</a></li>
+            <li><a href='https://coinkit.de'>CoinKit</a></li>
         </ul>
     </div>
     <div class="page-wrapper">
       <div class="dark-box"></div>
       <div class="content">
-        <h1 id='introduction'>Introduction</h1>
-<p>Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.</p>
+        <h1 id='getting-started'>Getting Started</h1>
+<p>Welcome to the CoinKit Documentation! We are happy that you are using CoinKit, this Documentation should include all information to tip your favorite CryptoCurrency!</p>
+<h2 id='installation'>Installation</h2>
+<p>CoinKit needs to be in your Channel to assist you with Tipping! So if CoinKit isnt present yet, please install/add it with the links below. Twitter is enabled by default, to get started there, just click the link.</p>
 
-<p>We have language bindings in Shell, Ruby, Python, and JavaScript! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.</p>
+<p>Twitter: <a href='https://twitter.com/messages/compose?recipient_id=1111599216126820354&welcome_message_id=1125897988113600517'>Start</a><br/>
+Slack: <a href='https://slack.com/oauth/authorize?client_id=226325165126.378800172996&scope=commands,bot,users.profile:write,users:write,reactions:write,reactions:read,users.profile:read,users:read,users:read.email,usergroups:write,usergroups:read,groups:read,emoji:read,chat:write:bot,channels:read,channels:history,links:read,links:write,mpim:read,channels:write,team:read'> Install </a><br/>
+Telegram: <a href='https://t.me/coinkitbot'>Start</a><br/>
+Discord: <a href='https://discordapp.com/api/oauth2/authorize?client_id=546463922287411230&permissions=522304&scope=bot'>Install</a><br/></p>
+<h1 id='commands'>Commands</h1>
+<p>Coinkit has a lot of functions which will be explained in this section.</p>
+<h2 id='tiphelp'>Tiphelp</h2>
+<p><code>Command: Tiphelp</code></p>
 
-<p>This example API documentation page was created with <a href="https://github.com/lord/slate">Slate</a>. Feel free to edit it and use it as a base for your own API&#39;s documentation.</p>
-<h1 id='authentication'>Authentication</h1>
-<blockquote>
-<p>To authorize, use this code:</p>
-</blockquote>
-<pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
-</code></pre><pre class="highlight python tab-python"><code><span class="kn">import</span> <span class="nn">kittn</span>
-
-<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="o">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
-</code></pre><pre class="highlight shell tab-shell"><code><span class="c"># With shell, you can just pass the correct header with each request</span>
-curl <span class="s2">"api_endpoint_here"</span>
-  -H <span class="s2">"Authorization: meowmeowmeow"</span>
-</code></pre><pre class="highlight javascript tab-javascript"><code><span class="kr">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'kittn'</span><span class="p">);</span>
-
-<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">);</span>
-</code></pre>
-<blockquote>
-<p>Make sure to replace <code>meowmeowmeow</code> with your API key.</p>
-</blockquote>
-
-<p>Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our <a href="http://example.com/developers">developer portal</a>.</p>
-
-<p>Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:</p>
-
-<p><code>Authorization: meowmeowmeow</code></p>
-
+<p>Tiphelp will always help you out as it lists all Commands CoinKit has.
 <aside class="notice">
-You must replace <code>meowmeowmeow</code> with your personal API key.
-</aside>
-<h1 id='kittens'>Kittens</h1><h2 id='get-all-kittens'>Get All Kittens</h2><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
+To prevent spamming this Command is only available in private chat with CoinKit.
+</aside></p>
+<h2 id='coins'>Coins</h2>
+<p><code>Command: Coins</code></p>
 
-<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="p">.</span><span class="nf">kittens</span><span class="p">.</span><span class="nf">get</span>
-</code></pre><pre class="highlight python tab-python"><code><span class="kn">import</span> <span class="nn">kittn</span>
+<p>Will display all integrated and usable Coins.</p>
 
-<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="o">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="o">.</span><span class="n">kittens</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
-</code></pre><pre class="highlight shell tab-shell"><code>curl <span class="s2">"http://example.com/api/kittens"</span>
-  -H <span class="s2">"Authorization: meowmeowmeow"</span>
-</code></pre><pre class="highlight javascript tab-javascript"><code><span class="kr">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'kittn'</span><span class="p">);</span>
-
-<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">);</span>
-<span class="kd">let</span> <span class="nx">kittens</span> <span class="o">=</span> <span class="nx">api</span><span class="p">.</span><span class="nx">kittens</span><span class="p">.</span><span class="nx">get</span><span class="p">();</span>
-</code></pre>
 <blockquote>
-<p>The above command returns JSON structured like this:</p>
+<p>Coins Usage:</p>
 </blockquote>
-<pre class="highlight json tab-json"><code><span class="p">[</span><span class="w">
-  </span><span class="p">{</span><span class="w">
-    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Fluffums"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"breed"</span><span class="p">:</span><span class="w"> </span><span class="s2">"calico"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"fluffiness"</span><span class="p">:</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"cuteness"</span><span class="p">:</span><span class="w"> </span><span class="mi">7</span><span class="w">
-  </span><span class="p">},</span><span class="w">
-  </span><span class="p">{</span><span class="w">
-    </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Max"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"breed"</span><span class="p">:</span><span class="w"> </span><span class="s2">"unknown"</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"fluffiness"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
-    </span><span class="s2">"cuteness"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="w">
-  </span><span class="p">}</span><span class="w">
-</span><span class="p">]</span><span class="w">
-</span></code></pre>
-<p>This endpoint retrieves all kittens.</p>
-<h3 id='http-request'>HTTP Request</h3>
-<p><code>GET http://example.com/api/kittens</code></p>
-<h3 id='query-parameters'>Query Parameters</h3>
-<table><thead>
-<tr>
-<th>Parameter</th>
-<th>Default</th>
-<th>Description</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>include_cats</td>
-<td>false</td>
-<td>If set to true, the result will also include cats.</td>
-</tr>
-<tr>
-<td>available</td>
-<td>true</td>
-<td>If set to false, the result will include kittens that have already been adopted.</td>
-</tr>
-</tbody></table>
+<pre class="highlight shell tab-shell"><code>
+coins
 
-<aside class="success">
-Remember — a happy kitten is an authenticated kitten!
-</aside>
-<h2 id='get-a-specific-kitten'>Get a Specific Kitten</h2><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
+Example:
+ - coins
+</code></pre><pre class="highlight ruby tab-ruby"><code>
+<span class="sr">/coins
 
-<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="p">.</span><span class="nf">kittens</span><span class="p">.</span><span class="nf">get</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</code></pre><pre class="highlight python tab-python"><code><span class="kn">import</span> <span class="nn">kittn</span>
+Example:
+ - /</span><span class="n">coins</span>
+</code></pre><pre class="highlight python tab-python"><code>
+<span class="o">/</span><span class="n">coins</span>
 
-<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="o">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="o">.</span><span class="n">kittens</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</code></pre><pre class="highlight shell tab-shell"><code>curl <span class="s2">"http://example.com/api/kittens/2"</span>
-  -H <span class="s2">"Authorization: meowmeowmeow"</span>
-</code></pre><pre class="highlight javascript tab-javascript"><code><span class="kr">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'kittn'</span><span class="p">);</span>
+<span class="n">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="o">/</span><span class="n">coins</span>
+</code></pre><pre class="highlight javascript tab-javascript"><code>
+<span class="sr">/coin</span><span class="err">s
+</span>
+<span class="nl">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="sr">/coin</span><span class="err">s
+</span></code></pre><h2 id='changecoin'>ChangeCoin</h2>
+<p><code>Command: changecoin &lt;coin&gt;</code></p>
 
-<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">);</span>
-<span class="kd">let</span> <span class="nx">max</span> <span class="o">=</span> <span class="nx">api</span><span class="p">.</span><span class="nx">kittens</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
-</code></pre>
+<p>This Command changes the Coin you or your Channel is using. It has two usecases:
+- Set a default Coin for a Channel (Slack, Telegram, Discord), this can only be done by an Admin or ChannelOwner (Telegram).
+- Change to your desired Coin in PrivateChat with CoinKit. ( Telegram, Discord, Twitter )</p>
+
+<p>The Integration will be changed to the Coin and all other Commands will be using this Set Coin.</p>
+
 <blockquote>
-<p>The above command returns JSON structured like this:</p>
+<p>Changecoin Usage:</p>
 </blockquote>
-<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
-  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Max"</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"breed"</span><span class="p">:</span><span class="w"> </span><span class="s2">"unknown"</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"fluffiness"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"cuteness"</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></code></pre>
-<p>This endpoint retrieves a specific kitten.</p>
+<pre class="highlight shell tab-shell"><code>
+changecoin &lt;coin&gt;
 
-<aside class="warning">Inside HTML code blocks like this one, you can't use Markdown, so use <code>&lt;code&gt;</code> blocks to denote code.</aside>
-<h3 id='http-request-2'>HTTP Request</h3>
-<p><code>GET http://example.com/kittens/&lt;ID&gt;</code></p>
-<h3 id='url-parameters'>URL Parameters</h3>
-<table><thead>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>ID</td>
-<td>The ID of the kitten to retrieve</td>
-</tr>
-</tbody></table>
-<h2 id='delete-a-specific-kitten'>Delete a Specific Kitten</h2><pre class="highlight ruby tab-ruby"><code><span class="nb">require</span> <span class="s1">'kittn'</span>
+Example:
+ - /changecoin tube
+ - /changecoin tzc
+ - /changecoin nxs
+</code></pre><pre class="highlight python tab-python"><code>
+<span class="o">/</span><span class="n">changecoin</span> <span class="o">&lt;</span><span class="n">coin</span><span class="o">&gt;</span>
 
-<span class="n">api</span> <span class="o">=</span> <span class="no">Kittn</span><span class="o">::</span><span class="no">APIClient</span><span class="p">.</span><span class="nf">authorize!</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="p">.</span><span class="nf">kittens</span><span class="p">.</span><span class="nf">delete</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</code></pre><pre class="highlight python tab-python"><code><span class="kn">import</span> <span class="nn">kittn</span>
+<span class="n">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="o">/</span><span class="n">changecoin</span> <span class="n">tube</span>
+ <span class="o">-</span> <span class="o">/</span><span class="n">changecoin</span> <span class="n">tzc</span>
+ <span class="o">-</span> <span class="o">/</span><span class="n">changecoin</span> <span class="n">nxs</span>
+</code></pre><pre class="highlight ruby tab-ruby"><code>
+<span class="sr">/changecoin &lt;coin&gt;
 
-<span class="n">api</span> <span class="o">=</span> <span class="n">kittn</span><span class="o">.</span><span class="n">authorize</span><span class="p">(</span><span class="s">'meowmeowmeow'</span><span class="p">)</span>
-<span class="n">api</span><span class="o">.</span><span class="n">kittens</span><span class="o">.</span><span class="n">delete</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-</code></pre><pre class="highlight shell tab-shell"><code>curl <span class="s2">"http://example.com/api/kittens/2"</span>
-  -X DELETE
-  -H <span class="s2">"Authorization: meowmeowmeow"</span>
-</code></pre><pre class="highlight javascript tab-javascript"><code><span class="kr">const</span> <span class="nx">kittn</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'kittn'</span><span class="p">);</span>
+Example:
+ - /</span><span class="n">changecoin</span> <span class="n">tube</span>
+ <span class="o">-</span> <span class="sr">/changecoin tzc
+ - /</span><span class="n">changecoin</span> <span class="n">nxs</span>
+</code></pre><pre class="highlight javascript tab-javascript"><code>
+<span class="sr">/changecoin &lt;coin</span><span class="err">&gt;
+</span>
+<span class="nl">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="sr">/changecoin tub</span><span class="err">e
+</span> <span class="o">-</span> <span class="sr">/changecoin tz</span><span class="err">c
+</span> <span class="o">-</span> <span class="sr">/changecoin nx</span><span class="err">s
+</span></code></pre><h2 id='deposit'>Deposit</h2>
+<p><code>Command: Deposit</code></p>
 
-<span class="kd">let</span> <span class="nx">api</span> <span class="o">=</span> <span class="nx">kittn</span><span class="p">.</span><span class="nx">authorize</span><span class="p">(</span><span class="s1">'meowmeowmeow'</span><span class="p">);</span>
-<span class="kd">let</span> <span class="nx">max</span> <span class="o">=</span> <span class="nx">api</span><span class="p">.</span><span class="nx">kittens</span><span class="p">.</span><span class="k">delete</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
-</code></pre>
+<p>To be able to tip people, you first have to load up your wallet with a desired amount of Coins. With this command your personal deposit address will be created, so the Coins you transfer there will be assigned to you. Now you can get started.</p>
+
 <blockquote>
-<p>The above command returns JSON structured like this:</p>
+<p>Deposit Usage:</p>
 </blockquote>
-<pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
-  </span><span class="s2">"id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
-  </span><span class="s2">"deleted"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">":("</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></code></pre>
-<p>This endpoint deletes a specific kitten.</p>
-<h3 id='http-request-3'>HTTP Request</h3>
-<p><code>DELETE http://example.com/kittens/&lt;ID&gt;</code></p>
-<h3 id='url-parameters-2'>URL Parameters</h3>
-<table><thead>
-<tr>
-<th>Parameter</th>
-<th>Description</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>ID</td>
-<td>The ID of the kitten to delete</td>
-</tr>
-</tbody></table>
-<h1 id='errors'>Errors</h1>
-<aside class="notice">
-This error section is stored in a separate file in <code>includes/_errors.md</code>. Slate allows you to optionally separate out your docs into many files...just save them to the <code>includes</code> folder and add them to the top of your <code>index.md</code>'s frontmatter. Files are included in the order listed.
+<pre class="highlight shell tab-shell"><code>
+deposit
+
+Example:
+ - deposit
+</code></pre><pre class="highlight python tab-python"><code>
+<span class="o">/</span><span class="n">deposit</span>
+
+<span class="n">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="o">/</span><span class="n">deposit</span>
+</code></pre><pre class="highlight ruby tab-ruby"><code>
+<span class="sr">/deposit
+
+Example:
+ - /</span><span class="n">deposit</span>
+</code></pre><pre class="highlight javascript tab-javascript"><code>
+<span class="sr">/deposi</span><span class="err">t
+</span>
+<span class="nl">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="sr">/deposi</span><span class="err">t
+</span></code></pre><h2 id='balance'>Balance</h2>
+<p><code>Command: Balance</code></p>
+
+<p>Balance will show your Confirmed and Unconfirmed Balance. After you have deposited Coins to your Deposit-Address, you need to wait for Confirmations, Confirmations depend on the Coin you are using and it may take up to a few minutes until they are confirmed. Unconfirmed Coins are shown in round brackets.
+When your Coins are confirmed, you are ready to tip!</p>
+
+<blockquote>
+<p>Balance Usage:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>
+balance
+
+Example:
+ - balance
+</code></pre><pre class="highlight python tab-python"><code>
+<span class="o">/</span><span class="n">balance</span>
+
+<span class="n">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="o">/</span><span class="n">balance</span>
+</code></pre><pre class="highlight ruby tab-ruby"><code>
+<span class="sr">/balance
+
+Example:
+ - /</span><span class="n">balance</span>
+</code></pre><pre class="highlight javascript tab-javascript"><code>
+<span class="sr">/balanc</span><span class="err">e
+</span>
+<span class="nl">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="sr">/balanc</span><span class="err">e
+</span></code></pre><h2 id='tipping'>Tipping</h2>
+<p>Your Coins are confirmed? Now you are ready for Tipping!
+This Section is all about Tipping, Single-Tips, Multi-Tips and Coingiveaways.</p>
+<h2 id='single-tip'>Single-Tip</h2>
+<p><code>Command: tip @&lt;username&gt; &lt;amount&gt; &lt;message&gt;</code></p>
+
+<p>This Tip is designed to Tip a single person. You can also add a nice message to the Tip what may be the reason for the Tip.</p>
+
+<aside class="warning"> Remember to add the Coin you want to Tip on Twitter!</aside>
+
+<blockquote>
+<p>Tip Usage:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>
+Post a Status with <span class="s1">'@coinkit_ tip @user1 &lt;amount&gt; [#|$]&lt;coin&gt;'</span>
+
+Example:
+ - @coinkit_ tip @elonmusk 10 tzc
+ - @coinkit_ tip @elonmusk 10 <span class="c">#nxs</span>
+ - @coinkit_ tip @elonmusk 10 <span class="nv">$tzc</span>
+ - @coinkit_ tip @elonmusk 10 <span class="c">#TUBE</span>
+</code></pre><pre class="highlight python tab-python"><code>
+<span class="n">tip</span> <span class="nd">@Username</span> <span class="o">&lt;</span><span class="n">amount</span><span class="o">&gt;</span>
+
+<span class="n">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="o">/</span><span class="n">tip</span> <span class="nd">@GrumpyCat</span> <span class="mi">10</span>
+</code></pre><pre class="highlight ruby tab-ruby"><code>
+<span class="sr">/tip @Username &lt;amount&gt;
+
+Example:
+ - /</span><span class="n">tip</span> <span class="vi">@GrumpyCat</span> <span class="mi">10</span>
+</code></pre><pre class="highlight javascript tab-javascript"><code>
+<span class="sr">/tip @Username &lt;amount</span><span class="err">&gt;
+</span>
+<span class="nl">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="sr">/tip @GrumpyCat 1</span><span class="err">0
+</span></code></pre><h3 id='reply-tip'>Reply-Tip</h3>
+<p><code>Command: tip &lt;amount&gt; &lt;message&gt;</code></p>
+
+<p>With this function you can directly tip the person in a reply without the need of an extra mention!
+<aside class="warning"> 
+ Be careful, you will tip everyone who is Quoted in your reply!</aside></p>
+
+<blockquote>
+<p>Reply Usage:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>
+Reply to a Post/Comment <span class="s1">'@coinkit_ tip @user1 &lt;amount&gt; [#|$]&lt;coin&gt;'</span>
+
+Example:
+ - @coinkit_ tip 10 tzc
+
+</code></pre><pre class="highlight python tab-python"><code>
+<span class="n">Reply</span> <span class="n">Tip</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">available</span> <span class="n">on</span> <span class="n">Slack</span><span class="o">.</span>
+
+</code></pre><pre class="highlight ruby tab-ruby"><code>
+<span class="sr">/tip &lt;amount&gt;
+
+Example:
+/</span><span class="n">tip</span> <span class="mi">10</span>
+</code></pre><pre class="highlight javascript tab-javascript"><code>
+<span class="sr">/tip &lt;amount</span><span class="err">&gt;
+</span>
+<span class="nl">Example</span><span class="p">:</span>
+<span class="nx">Reply</span> <span class="nx">Tip</span> <span class="nx">is</span> <span class="nx">not</span> <span class="nx">available</span> <span class="nx">on</span> <span class="nx">Discord</span><span class="p">.</span>
+</code></pre><h2 id='multi-tips'>Multi-Tips</h2>
+<p>This Feature is designed to spread the love even more! You can tip as many people as you like in your Channel, default is 10. We have implemented two ways of tipping the crowd, Channel-Tip and Rain.
+On top of that CoinKit Multi-Tips are based on activity, who hasnt been active, is idle, AFK or offline will not get tipped. So, be active!</p>
+<h2 id='channel-tip'>Channel-Tip</h2>
+<p><code>Command: tip @channel &lt;amount&gt; [user-amount]</code></p>
+
+<p>Tipping a whole Channel, doesnt that sound like fun? - Channel-Tip makes that possible, but we have set the default to 10 people, so if you forget to insert the additional parameter only 10 people will get tipped.
+The amount choosen on this command will be tipped to all people, so every person will get the amount you have inserted, it wont get split between them!</p>
+
+<blockquote>
+<p>Channel-Tip Usage:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>
+On Twitter we have no channels, to tip a bunch of people, just chain the usernames <span class="k">in </span>your post.
+
+Post a Status with <span class="s1">'@coinkit_ tip @user1 [@user.. @userN] &lt;amount&gt; [#|$]&lt;coin&gt;'</span>
+
+Example:
+ - @coinkit_ tip @elonmusk @jack @justinbieber @katyperry 10 tzc
+ - @coinkit_ tip @elonmusk @jack @justinbieber @katyperry 10 <span class="c">#nxs</span>
+ - @coinkit_ tip @elonmusk @jack @justinbieber @katyperry 10 <span class="nv">$tzc</span>
+ - @coinkit_ tip @elonmusk @jack @justinbieber @katyperry 10 <span class="c">#TUBE</span>
+</code></pre><pre class="highlight python tab-python"><code>
+<span class="o">/</span><span class="n">tip</span> <span class="nd">@channel</span> <span class="o">&lt;</span><span class="n">amount</span><span class="o">&gt;</span> <span class="p">[</span><span class="mi">10</span><span class="o">|</span><span class="n">userAmount</span><span class="p">]</span><span class="o">&gt;</span>
+
+<span class="n">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="o">/</span><span class="n">tip</span> <span class="nd">@channel</span> <span class="mi">10</span> 
+ <span class="c"># Tips 10 people 10 Coins, so 100 Coins in Total</span>
+
+ <span class="o">-</span> <span class="o">/</span><span class="n">tip</span> <span class="nd">@channel</span> <span class="mi">10</span> <span class="mi">20</span>
+ <span class="c"># Tips 20 people 10 Coins, so 200 Coins in Total</span>
+
+ <span class="o">-</span> <span class="o">/</span><span class="n">tip</span> <span class="nd">@channel</span> <span class="mi">10</span> <span class="mi">5</span>
+ <span class="c"># Tips 5 people 10 Coins, so 50 Coins in Total</span>
+</code></pre><pre class="highlight ruby tab-ruby"><code>
+<span class="sr">/tip @channel &lt;amount&gt; [10|userAmount]&gt;
+
+Example:
+ - /</span><span class="n">tip</span> <span class="vi">@channel</span> <span class="mi">10</span> 
+ <span class="c1"># Tips 10 people 10 Coins, so 100 Coins in Total</span>
+
+ <span class="o">-</span> <span class="sr">/tip @channel 10 20
+ # Tips 20 people 10 Coins, so 200 Coins in Total
+
+ - /</span><span class="n">tip</span> <span class="vi">@channel</span> <span class="mi">10</span> <span class="mi">5</span>
+ <span class="c1"># Tips 5 people 10 Coins, so 50 Coins in Total</span>
+</code></pre><pre class="highlight javascript tab-javascript"><code>
+<span class="sr">/tip @channel &lt;amount&gt; </span><span class="se">[</span><span class="sr">10|userAmount</span><span class="se">]</span><span class="err">&gt;
+</span>
+<span class="nl">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="sr">/tip @channel 10</span><span class="err"> 
+</span> <span class="err">#</span> <span class="nx">Tips</span> <span class="mi">10</span> <span class="nx">people</span> <span class="mi">10</span> <span class="nx">Coins</span><span class="p">,</span> <span class="nx">so</span> <span class="mi">100</span> <span class="nx">Coins</span> <span class="k">in</span> <span class="nx">Total</span>
+
+ <span class="o">-</span> <span class="sr">/tip @channel 10 2</span><span class="err">0
+</span> <span class="err">#</span> <span class="nx">Tips</span> <span class="mi">20</span> <span class="nx">people</span> <span class="mi">10</span> <span class="nx">Coins</span><span class="p">,</span> <span class="nx">so</span> <span class="mi">200</span> <span class="nx">Coins</span> <span class="k">in</span> <span class="nx">Total</span>
+
+ <span class="o">-</span> <span class="sr">/tip @channel 10 </span><span class="err">5
+</span> <span class="err">#</span> <span class="nx">Tips</span> <span class="mi">5</span> <span class="nx">people</span> <span class="mi">10</span> <span class="nx">Coins</span><span class="p">,</span> <span class="nx">so</span> <span class="mi">50</span> <span class="nx">Coins</span> <span class="k">in</span> <span class="nx">Total</span>
+</code></pre><h2 id='rain'>Rain</h2>
+<p><code>Command: rain &lt;amount&gt; [user-amount]</code></p>
+
+<p>Rain is a command which is spread accross all Social Channels, mostly used in Discord! - Rain does divide a given amount of Coins to a desired amount of People, so basicly &quot;rain&quot; on them. This Feature is also based on activity as well as having a default size of 10 people.</p>
+
+<p><aside class="warning"> Remember to add the Coin you want to Tip on Twitter!</aside></p>
+
+<blockquote>
+<p>Rain Usage:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>
+On Twitter we have no channels, to tip a bunch of people, just chain the usernames <span class="k">in </span>your post.
+
+Post a Status with <span class="s1">'@coinkit_ tip @user1 [@user.. @userN] &lt;amount&gt; [#|$]&lt;coin&gt;'</span>
+
+Example:
+ - @coinkit_ tip @elonmusk @jack @justinbieber @katyperry 10 tzc
+ - @coinkit_ tip @elonmusk @jack @justinbieber @katyperry 10 <span class="c">#nxs</span>
+ - @coinkit_ tip @elonmusk @jack @justinbieber @katyperry 10 <span class="nv">$tzc</span>
+ - @coinkit_ tip @elonmusk @jack @justinbieber @katyperry 10 <span class="c">#TUBE</span>
+</code></pre><pre class="highlight python tab-python"><code>
+<span class="o">/</span><span class="n">rain</span> <span class="o">&lt;</span><span class="n">amount</span><span class="o">&gt;</span> <span class="p">[</span><span class="mi">10</span><span class="o">|</span><span class="n">userAmount</span><span class="p">]</span>
+
+<span class="n">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="o">/</span><span class="n">rain</span> <span class="mi">10</span> 
+ <span class="c"># Rains 10 Coins on 10 people, 10 Coins in total, each person gets 1 Coin.</span>
+
+ <span class="o">-</span> <span class="o">/</span><span class="n">rain</span> <span class="mi">10</span> <span class="mi">20</span>
+ <span class="c"># Rains 10 Coins on 20 people, 10 Coins in total, each person gets 0.5 Coins.</span>
+
+ <span class="o">-</span> <span class="o">/</span><span class="n">rain</span> <span class="mi">10</span> <span class="mi">5</span>
+ <span class="c"># Rains 10 Coins on 5 people, 5 Coins in total, each person gets 2 Coins.</span>
+</code></pre><pre class="highlight ruby tab-ruby"><code>
+<span class="sr">/rain &lt;amount&gt; [10|userAmount]
+
+Example:
+ - /</span><span class="n">rain</span> <span class="mi">10</span> 
+ <span class="c1"># Rains 10 Coins on 10 people, 10 Coins in total, each person gets 1 Coin.</span>
+
+ <span class="o">-</span> <span class="sr">/rain 10 20
+ # Rains 10 Coins on 20 people, 10 Coins in total, each person gets 0.5 Coins.
+
+ - /</span><span class="n">rain</span> <span class="mi">10</span> <span class="mi">5</span>
+ <span class="c1"># Rains 10 Coins on 5 people, 5 Coins in total, each person gets 2 Coins.</span>
+</code></pre><pre class="highlight javascript tab-javascript"><code>
+<span class="sr">/rain &lt;amount&gt; </span><span class="se">[</span><span class="sr">10|userAmount</span><span class="err">]
+</span>
+<span class="nl">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="sr">/rain 10</span><span class="err"> 
+</span> <span class="err">#</span> <span class="nx">Rains</span> <span class="mi">10</span> <span class="nx">Coins</span> <span class="nx">on</span> <span class="mi">10</span> <span class="nx">people</span><span class="p">,</span> <span class="mi">10</span> <span class="nx">Coins</span> <span class="k">in</span> <span class="nx">total</span><span class="p">,</span> <span class="nx">each</span> <span class="nx">person</span> <span class="nx">gets</span> <span class="mi">1</span> <span class="nx">Coin</span><span class="p">.</span>
+
+ <span class="o">-</span> <span class="sr">/rain 10 2</span><span class="err">0
+</span> <span class="err">#</span> <span class="nx">Rains</span> <span class="mi">10</span> <span class="nx">Coins</span> <span class="nx">on</span> <span class="mi">20</span> <span class="nx">people</span><span class="p">,</span> <span class="mi">10</span> <span class="nx">Coins</span> <span class="k">in</span> <span class="nx">total</span><span class="p">,</span> <span class="nx">each</span> <span class="nx">person</span> <span class="nx">gets</span> <span class="mf">0.5</span> <span class="nx">Coins</span><span class="p">.</span>
+
+ <span class="o">-</span> <span class="sr">/rain 10 </span><span class="err">5
+</span> <span class="err">#</span> <span class="nx">Rains</span> <span class="mi">10</span> <span class="nx">Coins</span> <span class="nx">on</span> <span class="mi">5</span> <span class="nx">people</span><span class="p">,</span> <span class="mi">5</span> <span class="nx">Coins</span> <span class="k">in</span> <span class="nx">total</span><span class="p">,</span> <span class="nx">each</span> <span class="nx">person</span> <span class="nx">gets</span> <span class="mi">2</span> <span class="nx">Coins</span><span class="p">.</span>
+</code></pre><h2 id='coingiveaway'>Coingiveaway</h2>
+<p><code>Command: coingiveaway &lt;amount&gt; [user-amount]</code></p>
+
+<p>An interesting and unique feature to give away coins is CoinGiveAway! This feature is based on activity, to receive a tip, users have to interact with the giveaway and click a moneybag to be eligible for this type of giveaway.
+This Giveaway is time and user limited! - The creator can choose how many people get the opportunity to receive coins. Has the time run out or the limit of people is reached, the giveaway is over and all participants will get rewarded.
+Default User amount is 10 and the time-limit is set to 5 minutes.</p>
+
+<aside class="warning">
+Right now there is no support for that kind of giveaway on Twitter & Telegram.
 </aside>
 
-<p>The Kittn API uses the following error codes:</p>
+<blockquote>
+<p>Rain Usage:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>
+Right now there is no support <span class="k">for </span>that kind of giveaway on Twitter.
 
-<table><thead>
-<tr>
-<th>Error Code</th>
-<th>Meaning</th>
-</tr>
-</thead><tbody>
-<tr>
-<td>400</td>
-<td>Bad Request -- Your request is invalid.</td>
-</tr>
-<tr>
-<td>401</td>
-<td>Unauthorized -- Your API key is wrong.</td>
-</tr>
-<tr>
-<td>403</td>
-<td>Forbidden -- The kitten requested is hidden for administrators only.</td>
-</tr>
-<tr>
-<td>404</td>
-<td>Not Found -- The specified kitten could not be found.</td>
-</tr>
-<tr>
-<td>405</td>
-<td>Method Not Allowed -- You tried to access a kitten with an invalid method.</td>
-</tr>
-<tr>
-<td>406</td>
-<td>Not Acceptable -- You requested a format that isn&#39;t json.</td>
-</tr>
-<tr>
-<td>410</td>
-<td>Gone -- The kitten requested has been removed from our servers.</td>
-</tr>
-<tr>
-<td>418</td>
-<td>I&#39;m a teapot.</td>
-</tr>
-<tr>
-<td>429</td>
-<td>Too Many Requests -- You&#39;re requesting too many kittens! Slow down!</td>
-</tr>
-<tr>
-<td>500</td>
-<td>Internal Server Error -- We had a problem with our server. Try again later.</td>
-</tr>
-<tr>
-<td>503</td>
-<td>Service Unavailable -- We&#39;re temporarily offline for maintenance. Please try again later.</td>
-</tr>
-</tbody></table>
+</code></pre><pre class="highlight python tab-python"><code>
+<span class="o">/</span><span class="n">coingiveaway</span> <span class="o">&lt;</span><span class="n">amount</span><span class="o">&gt;</span> <span class="p">[</span><span class="mi">10</span><span class="o">|</span><span class="n">userAmount</span><span class="p">]</span>
 
+<span class="n">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="o">/</span><span class="n">coingiveaway</span> <span class="mi">10</span> 
+ <span class="c"># Starts a Giveaway with 10 Coins for 10 people, 100 Coins in total, each person gets 10 Coins.</span>
+
+ <span class="o">-</span> <span class="o">/</span><span class="n">rain</span> <span class="mi">10</span> <span class="mi">20</span>
+ <span class="c"># Starts a Giveaway with 10 Coins for 20 people, 200 Coins in total, each person gets 10 Coins.</span>
+
+ <span class="o">-</span> <span class="o">/</span><span class="n">rain</span> <span class="mi">10</span> <span class="mi">5</span>
+ <span class="c"># Starts a Giveaway with 10 Coins for 5 people, 50 Coins in total, each person gets 10 Coins.</span>
+</code></pre><pre class="highlight ruby tab-ruby"><code><span class="no">Right</span> <span class="n">now</span> <span class="n">there</span> <span class="n">is</span> <span class="n">no</span> <span class="n">support</span> <span class="k">for</span> <span class="n">that</span> <span class="n">kind</span> <span class="n">of</span> <span class="n">giveaway</span> <span class="n">on</span> <span class="no">Telegram</span><span class="o">.</span>
+</code></pre><pre class="highlight javascript tab-javascript"><code>
+<span class="sr">/coingiveaway &lt;amount&gt; </span><span class="se">[</span><span class="sr">10|userAmount</span><span class="err">]
+</span>
+<span class="nl">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="sr">/coingiveaway 10</span><span class="err"> 
+</span> <span class="err">#</span> <span class="nx">Starts</span> <span class="nx">a</span> <span class="nx">Giveaway</span> <span class="kd">with</span> <span class="mi">10</span> <span class="nx">Coins</span> <span class="k">for</span> <span class="mi">10</span> <span class="nx">people</span><span class="p">,</span> <span class="mi">100</span> <span class="nx">Coins</span> <span class="k">in</span> <span class="nx">total</span><span class="p">,</span> <span class="nx">each</span> <span class="nx">person</span> <span class="nx">gets</span> <span class="mi">10</span> <span class="nx">Coins</span><span class="p">.</span>
+
+ <span class="o">-</span> <span class="sr">/rain 10 2</span><span class="err">0
+</span> <span class="err">#</span> <span class="nx">Starts</span> <span class="nx">a</span> <span class="nx">Giveaway</span> <span class="kd">with</span> <span class="mi">10</span> <span class="nx">Coins</span> <span class="k">for</span> <span class="mi">20</span> <span class="nx">people</span><span class="p">,</span> <span class="mi">200</span> <span class="nx">Coins</span> <span class="k">in</span> <span class="nx">total</span><span class="p">,</span> <span class="nx">each</span> <span class="nx">person</span> <span class="nx">gets</span> <span class="mi">10</span> <span class="nx">Coins</span><span class="p">.</span>
+
+ <span class="o">-</span> <span class="sr">/rain 10 </span><span class="err">5
+</span> <span class="err">#</span> <span class="nx">Starts</span> <span class="nx">a</span> <span class="nx">Giveaway</span> <span class="kd">with</span> <span class="mi">10</span> <span class="nx">Coins</span> <span class="k">for</span> <span class="mi">5</span> <span class="nx">people</span><span class="p">,</span> <span class="mi">50</span> <span class="nx">Coins</span> <span class="k">in</span> <span class="nx">total</span><span class="p">,</span> <span class="nx">each</span> <span class="nx">person</span> <span class="nx">gets</span> <span class="mi">10</span> <span class="nx">Coins</span><span class="p">.</span>
+</code></pre><h2 id='withdraw'>Withdraw</h2>
+<p><code>Command: withdraw &lt;address&gt; &lt;amount&gt;</code></p>
+
+<p>All good things come to an end, if you want to withdraw your coins to your local wallet you will have to use our Withdraw function! This command initiates directly a transfer to the given address.</p>
+
+<blockquote>
+<p>Withdraw Usage:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>
+withdraw &lt;address&gt; &lt;amount&gt;
+
+Example:
+ - withdraw 1GanlkaIP9234ANakljra89xDAfajkl 10
+ <span class="c"># Withdraws 10 Coins to 1GanlkaIP9234ANakljra89xDAfajkl</span>
+</code></pre><pre class="highlight python tab-python"><code>
+<span class="o">/</span><span class="n">withdraw</span> <span class="o">&lt;</span><span class="n">address</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">amount</span><span class="o">&gt;</span>
+
+<span class="n">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="o">/</span><span class="n">withdraw</span> <span class="mi">1</span><span class="n">GanlkaIP9234ANakljra89xDAfajkl</span> <span class="mi">10</span>
+ <span class="c"># Withdraws 10 Coins to 1GanlkaIP9234ANakljra89xDAfajkl</span>
+</code></pre><pre class="highlight ruby tab-ruby"><code>
+<span class="sr">/withdraw &lt;address&gt; &lt;amount&gt;
+
+Example:
+ - /</span><span class="n">withdraw</span> <span class="mi">1</span><span class="no">GanlkaIP9234ANakljra89xDAfajkl</span> <span class="mi">10</span>
+ <span class="c1"># Withdraws 10 Coins to 1GanlkaIP9234ANakljra89xDAfajkl</span>
+</code></pre><pre class="highlight javascript tab-javascript"><code>
+<span class="sr">/withdraw &lt;address&gt; &lt;amount</span><span class="err">&gt;
+</span>
+<span class="nl">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="sr">/withdraw 1GanlkaIP9234ANakljra89xDAfajkl 1</span><span class="err">0
+</span> <span class="err">#</span> <span class="nx">Withdraws</span> <span class="mi">10</span> <span class="nx">Coins</span> <span class="nx">to</span> <span class="mi">1</span><span class="nx">GanlkaIP9234ANakljra89xDAfajkl</span>
+</code></pre><h2 id='price'>Price</h2>
+<p><code>Command: price &lt;coin&gt;</code></p>
+
+<p>This Command show the Price of the Coin in BTC,USD,EUR,GBP,KRW. The default coin will be taken if no additional parameter is passed, but it can be applied to all integrated Coins.</p>
+
+<blockquote>
+<p>Price Usage:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>
+price &lt;coin&gt;
+
+Example:
+ - price nxs
+ - price tzc
+ - price tube
+</code></pre><pre class="highlight python tab-python"><code>
+<span class="o">/</span><span class="n">price</span> <span class="o">&lt;</span><span class="n">coin</span><span class="o">&gt;</span>
+
+<span class="n">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="o">/</span><span class="n">price</span> <span class="n">nxs</span>
+ <span class="o">-</span> <span class="o">/</span><span class="n">price</span> <span class="n">tzc</span>
+ <span class="o">-</span> <span class="o">/</span><span class="n">price</span> <span class="n">tube</span>
+</code></pre><pre class="highlight ruby tab-ruby"><code>
+<span class="sr">/price &lt;coin&gt;
+
+Example:
+ - /</span><span class="n">price</span> <span class="n">nxs</span>
+ <span class="o">-</span> <span class="sr">/price tzc
+ - /</span><span class="n">price</span> <span class="n">tube</span>
+</code></pre><pre class="highlight javascript tab-javascript"><code>
+<span class="sr">/price &lt;coin</span><span class="err">&gt;
+</span>
+<span class="nl">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="sr">/price nx</span><span class="err">s
+</span> <span class="o">-</span> <span class="sr">/price tz</span><span class="err">c
+</span> <span class="o">-</span> <span class="sr">/price tub</span><span class="err">e
+</span></code></pre><h2 id='convert'>Convert</h2>
+<p><code>Command: convert [amount] &lt;fromCoin&gt; [to|in] &lt;toCoin|usd&gt;</code></p>
+
+<p>Our Convert feature is designed to calculate the Value of Coins into another Coin or USD.</p>
+
+<blockquote>
+<p>Convert Usage:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>
+convert <span class="o">[</span>amount] &lt;fromCoin&gt; <span class="o">[</span>to|in] &lt;toCoin|usd&gt;
+
+Example:
+ - convert 20 nxs to tzc
+ - convert 800 tzc to usd
+ - convert 10 tube to pivx
+</code></pre><pre class="highlight python tab-python"><code>
+<span class="n">convert</span> <span class="p">[</span><span class="n">amount</span><span class="p">]</span> <span class="o">&lt;</span><span class="n">fromCoin</span><span class="o">&gt;</span> <span class="p">[</span><span class="n">to</span><span class="o">|</span><span class="ow">in</span><span class="p">]</span> <span class="o">&lt;</span><span class="n">toCoin</span><span class="o">|</span><span class="n">usd</span><span class="o">&gt;</span>
+
+<span class="n">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="o">/</span><span class="n">convert</span> <span class="mi">20</span> <span class="n">nxs</span> <span class="n">to</span> <span class="n">tzc</span>
+ <span class="o">-</span> <span class="o">/</span><span class="n">convert</span> <span class="mi">800</span> <span class="n">tzc</span> <span class="n">to</span> <span class="n">usd</span>
+ <span class="o">-</span> <span class="o">/</span><span class="n">convert</span> <span class="mi">10</span> <span class="n">tube</span> <span class="n">to</span> <span class="n">pivx</span>
+</code></pre><pre class="highlight ruby tab-ruby"><code>
+<span class="n">convert</span> <span class="p">[</span><span class="n">amount</span><span class="p">]</span> <span class="o">&lt;</span><span class="n">fromCoin</span><span class="o">&gt;</span> <span class="p">[</span><span class="n">to</span><span class="o">|</span><span class="k">in</span><span class="p">]</span> <span class="o">&lt;</span><span class="n">toCoin</span><span class="o">|</span><span class="n">usd</span><span class="o">&gt;</span>
+
+<span class="no">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="sr">/convert 20 nxs to tzc
+ - /</span><span class="n">convert</span> <span class="mi">800</span> <span class="n">tzc</span> <span class="n">to</span> <span class="n">usd</span>
+ <span class="o">-</span> <span class="sr">/convert 10 tube to pivx
+</span></code></pre><pre class="highlight javascript tab-javascript"><code>
+<span class="nx">convert</span> <span class="p">[</span><span class="nx">amount</span><span class="p">]</span> <span class="o">&lt;</span><span class="nx">fromCoin</span><span class="o">&gt;</span> <span class="p">[</span><span class="nx">to</span><span class="o">|</span><span class="k">in</span><span class="p">]</span> <span class="o">&lt;</span><span class="nx">toCoin</span><span class="o">|</span><span class="nx">usd</span><span class="o">&gt;</span>
+
+<span class="nx">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="sr">/convert 20 nxs to tz</span><span class="err">c
+</span> <span class="o">-</span> <span class="sr">/convert 800 tzc to us</span><span class="err">d
+</span> <span class="o">-</span> <span class="sr">/convert 10 tube to piv</span><span class="err">x
+</span></code></pre><h2 id='audit'>Audit</h2>
+<p><code>Command: auditme</code></p>
+
+<p>Audit Time! - You will get all information we have about you. These information include Account ID, Addresses of the selected Coin, Confirmed and Unconfirmed Balance.</p>
+
+<blockquote>
+<p>Auditme Usage:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>
+auditme
+
+Example:
+ - auditme
+</code></pre><pre class="highlight python tab-python"><code>
+<span class="o">/</span><span class="n">auditme</span>
+
+<span class="n">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="o">/</span><span class="n">auditme</span>
+</code></pre><pre class="highlight ruby tab-ruby"><code>
+<span class="sr">/auditme
+
+Example:
+ - /</span><span class="n">auditme</span>
+</code></pre><pre class="highlight javascript tab-javascript"><code>
+<span class="sr">/auditm</span><span class="err">e
+</span>
+<span class="nl">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="sr">/auditm</span><span class="err">e
+</span></code></pre><h1 id='tweet-monetizing'>Tweet Monetizing</h1>
+<p><code>Post a Status with &#39;@coinkit_ mon &lt;amount&gt; &lt;userAmount&gt; &lt;coin&gt;&#39;</code></p>
+
+<p>Monetize your tweets with that feature in a truely unique way. Every retweet will instantly receive the given amount of coins, its fully automated and ends after the amount has been paid out.</p>
+
+<p><em>How does it work?</em></p>
+
+<p>Post a status on Twitter, starting with this line:</p>
+
+<p><code>@coinkit_ mon &lt;amount&gt; &lt;userAmount&gt; &lt;coin&gt;</code></p>
+
+<p>If you did everything correctly, @coinkit_ will retweet and like your status as well as reply with this message:</p>
+
+<p><code>Monetizing is set up for this Tweet! The next &lt;userAmount&gt; Users will receive each &lt;amount&gt; &lt;coin&gt; for their retweet!</code></p>
+
+<aside class="warning">
+Available coins for Tweet Monetizing: TZC, PIVX, DOGE, UFO
+</aside>
+
+<blockquote>
+<p>Tweet Monetization Usage:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>
+Post a status on Twitter, starting with this line:
+
+<span class="s1">'@coinkit_ mon &lt;amount&gt; &lt;userAmount&gt; &lt;coin&gt;'</span>
+
+Example:
+ - @coinkit_ mon 10 20 tzc
+ <span class="c"># Monetizes a tweet for 20 people, each retweet gets 10 Coins, total of 200 Coins.</span>
+ - @coinkit_ mon 500 12 tzc
+ <span class="c"># Monetizes a tweet for 12 people, each retweet gets 500 Coins, total of 6000 Coins.</span>
+ - @coinkit_ mon 25 10 tzc
+ <span class="c"># Monetizes a tweet for 10 people, each retweet gets 25 Coins, total of 250 Coins.</span>
+ - @coinkit_ mon 50 50 tzc
+ <span class="c"># Monetizes a tweet for 50 people, each retweet gets 50 Coins, total of 2500 Coins.</span>
+</code></pre><pre class="highlight python tab-python"><code>
+<span class="n">This</span> <span class="n">Feature</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">supported</span> <span class="n">on</span> <span class="n">Slack</span><span class="o">.</span>
+
+</code></pre><pre class="highlight ruby tab-ruby"><code>
+<span class="no">This</span> <span class="no">Feature</span> <span class="n">is</span> <span class="n">not</span> <span class="n">supported</span> <span class="n">on</span> <span class="no">Telegram</span><span class="o">.</span>
+
+</code></pre><pre class="highlight javascript tab-javascript"><code>
+<span class="nx">This</span> <span class="nx">Feature</span> <span class="nx">is</span> <span class="nx">not</span> <span class="nx">supported</span> <span class="nx">on</span> <span class="nx">Discord</span><span class="p">.</span>
+
+</code></pre><h1 id='support'>Support</h1>
+<p>We are happy to receive Bug reports, feedback or suggestions, please use the following commands to send us your thoughts!</p>
+<h2 id='coinkitsupport'>CoinKitSupport</h2>
+<p><code>Command: Coinkitsupport</code></p>
+
+<p>Ooops! Something went wrong? - Please use CoinKit Support if any Bug or error occours which should not happen! This function is only for bug reports, not for personal assisting on how to use the CoinKit ;)</p>
+
+<blockquote>
+<p>Coinkitsupport Usage:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>
+coinkitsupport
+
+Example:
+ - coinkitsupport
+</code></pre><pre class="highlight python tab-python"><code>
+<span class="o">/</span><span class="n">coinkitsupport</span>
+
+<span class="n">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="o">/</span><span class="n">coinkitsupport</span>
+</code></pre><pre class="highlight ruby tab-ruby"><code>
+<span class="sr">/coinkitsupport
+
+Example:
+ - /</span><span class="n">coinkitsupport</span>
+</code></pre><pre class="highlight javascript tab-javascript"><code>
+<span class="sr">/coinkitsuppor</span><span class="err">t
+</span>
+<span class="nl">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="sr">/coinkitsuppor</span><span class="err">t
+</span></code></pre><h2 id='coinkitfeedback'>CoinKitFeedback</h2>
+<p><code>Command: Coinkitfeedback &lt;text&gt;</code></p>
+
+<p>Any suggestions or feedback? - We would love to hear it! Just use this function and we assure you that we will take a close look at it!</p>
+
+<blockquote>
+<p>Coinkitfeedback Usage:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>
+coinkitfeedback &lt;text&gt;
+
+Example:
+ - coinkitfeedback This is constructive feedback!
+</code></pre><pre class="highlight python tab-python"><code>
+<span class="o">/</span><span class="n">coinkitfeedback</span> <span class="o">&lt;</span><span class="n">text</span><span class="o">&gt;</span>
+
+<span class="n">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="o">/</span><span class="n">coinkitfeedback</span> <span class="n">This</span> <span class="ow">is</span> <span class="n">constructive</span> <span class="n">feedback</span><span class="err">!</span>
+</code></pre><pre class="highlight ruby tab-ruby"><code>
+<span class="sr">/coinkitfeedback &lt;text&gt;
+
+Example:
+ - /</span><span class="n">coinkitfeedback</span> <span class="no">This</span> <span class="n">is</span> <span class="n">constructive</span> <span class="n">feedback!</span>
+</code></pre><pre class="highlight javascript tab-javascript"><code>
+<span class="sr">/coinkitfeedback &lt;text</span><span class="err">&gt;
+</span>
+<span class="nl">Example</span><span class="p">:</span>
+ <span class="o">-</span> <span class="sr">/coinkitfeedback This is constructive feedback</span><span class="err">!
+</span></code></pre>
       </div>
       <div class="dark-box">
           <div class="lang-selector">
-                <a href="#" data-language-name="shell">shell</a>
-                <a href="#" data-language-name="ruby">ruby</a>
-                <a href="#" data-language-name="python">python</a>
-                <a href="#" data-language-name="javascript">javascript</a>
+                <a href="#" data-language-name="shell">Twitter</a>
+                <a href="#" data-language-name="ruby">Telegram</a>
+                <a href="#" data-language-name="python">Slack</a>
+                <a href="#" data-language-name="javascript">Discord</a>
           </div>
       </div>
     </div>
