@@ -677,7 +677,7 @@ If you did everything correctly, @coinkit_ will retweet and like your status as 
 `Monetizing is set up for this Tweet! The next <userAmount> Users will receive each <amount> <coin> for their retweet!`
 
 <aside class="warning">
-This is a pilot program which works only with Trezarcoin (TZC) right now.
+Available coins for Tweet Monetizing: TZC, PIVX, DOGE, UFO
 </aside>
 
 > Tweet Monetization Usage:
