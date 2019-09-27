@@ -677,7 +677,7 @@ If you did everything correctly, @coinkit_ will retweet and like your status as 
 `Monetizing is set up for this Tweet! The next <userAmount> Users will receive each <amount> <coin> for their retweet!`
 
 <aside class="warning">
-Available coins for Tweet Monetizing: TZC, PIVX, DOGE, UFO, BNB
+Available coins for Tweet Monetizing: TZC, PIVX, DOGE, UFO, BNB, QTUM, FTC, DGB
 </aside>
 
 > Tweet Monetization Usage:
