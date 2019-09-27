@@ -662,7 +662,7 @@ Example:
 
 #Tweet Monetizing
 
-`Post a Status with '@coinkit_ mon <amount> <userAmount> <coin>'`
+`Post a Status with '@coinkit_ mon <amount> <userAmount> <coin> <keyword>'`
 
 Monetize your tweets with that feature in a truely unique way. Every retweet will instantly receive the given amount of coins, its fully automated and ends after the amount has been paid out.
 
@@ -670,11 +670,18 @@ Monetize your tweets with that feature in a truely unique way. Every retweet wil
 
 Post a status on Twitter, starting with this line:
 
-`@coinkit_ mon <amount> <userAmount> <coin>`
+`@coinkit_ mon <amount> <userAmount> <coin> <keyword>`
 
-If you did everything correctly, @coinkit_ will retweet and like your status as well as reply with this message:
+If you did everything correctly, @coinkit_ will retweet and like your status as well as reply with this message: 
 
 `Monetizing is set up for this Tweet! The next <userAmount> Users will receive each <amount> <coin> for their retweet!`
+
+If a Keyword is included:
+
+`Monetizing is set up for this Tweet! The next <amountUsers> Users will receive each <amount> <coin> for their retweet. The keyword is <keyword>`
+
+
+To be eligible to get Coins when a Keyword is choosen, the tweets needs to get retweeted with a comment, the comment needs to have the keyword included.
 
 <aside class="warning">
 Available coins for Tweet Monetizing: TZC, PIVX, DOGE, UFO, BNB, QTUM, FTC, DGB
