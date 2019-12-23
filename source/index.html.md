@@ -724,6 +724,72 @@ This Feature is not supported on Discord.
 
 ```
 
+##Monetized Tweet Status
+
+`DM @coinkit_ in private with this command:`
+
+'mon status'
+
+Lists all active monetized tweets (tweedId) of your account. You can lookup which tweets these are with https://twitter.com/<YOURUSERNAME>/status/<tweetId>.
+
+##Close Monetized Tweet
+
+To close a monetized tweet manually, you have to go into the DMs with @Coinkit_ and use this command:
+
+`mon end <tweetId>`
+
+This command will close the monetized tweet regardless of how many retweets would be left.
+
+
+#MinTips & TxFees
+
+`All Tips are on-chain, so a txfee needs to be included into every tip, here is the list of MinTips & TxFees for each Coin`
+
+<aside class="warning">
+Please keep in mind that these "fees" are only get withhold, if the txfee is lower at the current point, you will only get deducted the txfee which the network took.
+</aside>
+
+*TZC*
+Min Tip Amount: 0.5
+Default Fee: 0.25
+
+*BNB*
+Min Tip Amount: 0.001
+Default Fee: 0.00375
+
+*NXS*
+Min Tip Amount: 0.1
+Default Fee: 0.0
+
+*UFO*
+Min Tip Amount: 0.2
+Default Fee: 0.2
+
+*FTC*
+Min Tip Amount: 0.2
+Default Fee: 0.2
+
+*DGB*
+Min Tip Amount: 0.1
+Default Fee: 0.01
+
+*DOGE*
+Min Tip Amount: 5
+Default Fee: 1.04
+
+*QTUM*
+Min Tip Amount: 0.02
+Default Fee: 0.01
+
+*TUBE*
+Min Tip Amount: 0.01
+Default Fee: 0.01
+
+*PIVX*
+Min Tip Amount: 0.001
+Default Fee: 0.0004
+
+
 
 #Support 
 
