@@ -281,6 +281,17 @@
           </li>
           <li>
             <a href="#tweet-monetizing" class="toc-h1 toc-link" data-title="Tweet Monetizing">Tweet Monetizing</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#monetized-tweet-status" class="toc-h2 toc-link" data-title="Monetized Tweet Status">Monetized Tweet Status</a>
+                  </li>
+                  <li>
+                    <a href="#close-monetized-tweet" class="toc-h2 toc-link" data-title="Close Monetized Tweet">Close Monetized Tweet</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#mintips-amp-txfees" class="toc-h1 toc-link" data-title="MinTips &amp; TxFees">MinTips &amp; TxFees</a>
           </li>
           <li>
             <a href="#support" class="toc-h1 toc-link" data-title="Support">Support</a>
@@ -820,7 +831,7 @@ Example:
 <p>To be eligible to get Coins when a Keyword is choosen, the tweets needs to get retweeted with a comment, the comment needs to have the keyword included.</p>
 
 <aside class="warning">
-Available coins for Tweet Monetizing: TZC, PIVX, DOGE, UFO, BNB, QTUM, FTC, DGB
+Available coins for Tweet Monetizing: TZC, PIVX, DOGE, UFO, BNB, QTUM, FTC, DGB, NXS
 </aside>
 
 <blockquote>
@@ -849,7 +860,65 @@ Example:
 </code></pre><pre class="highlight javascript tab-javascript"><code>
 <span class="nx">This</span> <span class="nx">Feature</span> <span class="nx">is</span> <span class="nx">not</span> <span class="nx">supported</span> <span class="nx">on</span> <span class="nx">Discord</span><span class="p">.</span>
 
-</code></pre><h1 id='support'>Support</h1>
+</code></pre><h2 id='monetized-tweet-status'>Monetized Tweet Status</h2>
+<p><code>DM @coinkit_ in private with this command:</code></p>
+
+<p>&#39;mon status&#39;</p>
+
+<p>Lists all active monetized tweets (tweedId) of your account. You can lookup which tweets these are with https://twitter.com/<YOURUSERNAME>/status/<tweetId>.</p>
+<h2 id='close-monetized-tweet'>Close Monetized Tweet</h2>
+<p>To close a monetized tweet manually, you have to go into the DMs with @Coinkit_ and use this command:</p>
+
+<p><code>mon end &lt;tweetId&gt;</code></p>
+
+<p>This command will close the monetized tweet regardless of how many retweets would be left.</p>
+<h1 id='mintips-amp-txfees'>MinTips &amp; TxFees</h1>
+<p><code>All Tips are on-chain, so a txfee needs to be included into every tip, here is the list of MinTips &amp; TxFees for each Coin</code></p>
+
+<aside class="warning">
+Please keep in mind that these "fees" are only get withhold, if the txfee is lower at the current point, you will only get deducted the txfee which the network took.
+</aside>
+
+<p><em>TZC</em>
+Min Tip Amount: 0.5
+Default Fee: 0.25</p>
+
+<p><em>BNB</em>
+Min Tip Amount: 0.001
+Default Fee: 0.00375</p>
+
+<p><em>NXS</em>
+Min Tip Amount: 0.1
+Default Fee: 0.0</p>
+
+<p><em>UFO</em>
+Min Tip Amount: 0.2
+Default Fee: 0.2</p>
+
+<p><em>FTC</em>
+Min Tip Amount: 0.2
+Default Fee: 0.2</p>
+
+<p><em>DGB</em>
+Min Tip Amount: 0.1
+Default Fee: 0.01</p>
+
+<p><em>DOGE</em>
+Min Tip Amount: 5
+Default Fee: 1.04</p>
+
+<p><em>QTUM</em>
+Min Tip Amount: 0.02
+Default Fee: 0.01</p>
+
+<p><em>TUBE</em>
+Min Tip Amount: 0.01
+Default Fee: 0.01</p>
+
+<p><em>PIVX</em>
+Min Tip Amount: 0.001
+Default Fee: 0.0004</p>
+<h1 id='support'>Support</h1>
 <p>We are happy to receive Bug reports, feedback or suggestions, please use the following commands to send us your thoughts!</p>
 <h2 id='coinkitsupport'>CoinKitSupport</h2>
 <p><code>Command: Coinkitsupport</code></p>
