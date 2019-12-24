@@ -730,7 +730,7 @@ This Feature is not supported on Discord.
 
 'mon status'
 
-Lists all active monetized tweets (tweedId) of your account. You can lookup which tweets these are with https://twitter.com/<YOURUSERNAME>/status/<tweetId>.
+Lists all active monetized tweets (tweetId) of your account. You can lookup which tweets these are with https://twitter.com/<YOURUSERNAME>/status/<tweetId>.
 
 ##Close Monetized Tweet
 
@@ -755,7 +755,7 @@ Default Fee: 0.25
 
 *BNB*
 Min Tip Amount: 0.001
-Default Fee: 0.00375
+Default Fee: 0.000375
 
 *NXS*
 Min Tip Amount: 0.1
