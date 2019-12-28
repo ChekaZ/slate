@@ -672,6 +672,10 @@ Post a status on Twitter, starting with this line:
 
 `@coinkit_ mon <amount> <userAmount> <coin> <keyword>`
 
+<aside class="warning">
+Avoid multiple times @coinkit_ mentions in your Tweet, otherwise it wont work properly! If you want to talk about CoinKit, please use "#CoinKit".
+</aside>
+
 If you did everything correctly, @coinkit_ will retweet and like your status as well as reply with this message: 
 
 `Monetizing is set up for this Tweet! The next <userAmount> Users will receive each <amount> <coin> for their retweet!`
