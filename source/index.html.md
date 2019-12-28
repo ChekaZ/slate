@@ -873,3 +873,13 @@ Example:
  - /coinkitfeedback This is constructive feedback!
 ```
 
+# Terms of Service
+
+Since we operate on a number of platforms, the respective Terms of Services of the platform naturally apply. 
+Nevertheless, we would like to point out that we do not tolerate homophobic, sexist, violence glorifying, discriminating or abusive behaviour in any way.
+The first step you should take when you encounter a message that you believe is contrary to these guidelines is to report it according to the policies of the platform you are using.
+You can also use the following form to inform us about possible abuse of our bot: https://forms.gle/2nG6Bvgc9yS4mPFB7
+We reserve the right to limit or deny access to our services to users who we believe are in violation of the Terms of Service.
+
+Extended ToS: https://coinkit.de/terms-of-service.pdf
+
