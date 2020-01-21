@@ -177,6 +177,10 @@ When your Coins are confirmed, you are ready to tip!
 
 balance
 
+or
+
+balances (shows all balances > 0)
+
 Example:
  - balance
 ```
@@ -688,7 +692,7 @@ If a Keyword is included:
 To be eligible to get Coins when a Keyword is choosen, the tweets needs to get retweeted with a comment, the comment needs to have the keyword included.
 
 <aside class="warning">
-Available coins for Tweet Monetizing: TZC, PIVX, DOGE, UFO, BNB, QTUM, FTC, DGB, NXS
+Available Coins for Tweet Monetizing: TZC, PIVX, DOGE, UFO, BNB, QTUM, FTC, DGB, NXS, ARK
 </aside>
 
 > Tweet Monetization Usage:
@@ -793,11 +797,17 @@ Default Fee: 0.01
 Min Tip Amount: 0.001
 Default Fee: 0.0004
 
+*ARK*
+Min Tip Amount: 0.1
+Default Fee: 0.008
+
 
 
 #Support 
 
 We are happy to receive Bug reports, feedback or suggestions, please use the following commands to send us your thoughts!
+
+Official CoinKit Discord: <a href='https://discord.coinkit.de'> CoinKit Discord </a>
 
 ## CoinKitSupport
 
