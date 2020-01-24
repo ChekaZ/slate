@@ -759,46 +759,57 @@ Please keep in mind that these "fees" are only get withhold, if the txfee is low
 
 *TZC*
 Min Tip Amount: 0.5
+Monetized Min Amount: 1
 Default Fee: 0.25
 
 *BNB*
 Min Tip Amount: 0.001
+Monetized Min Amount: 0.001
 Default Fee: 0.000375
 
 *NXS*
 Min Tip Amount: 0.1
-Default Fee: 0.0
+Monetized Min Amount: 0.01
+Default Fee: 0.01
 
 *UFO*
 Min Tip Amount: 0.2
+Monetized Min Amount: 1
 Default Fee: 0.2
 
 *FTC*
 Min Tip Amount: 0.2
+Monetized Min Amount: 1
 Default Fee: 0.2
 
 *DGB*
 Min Tip Amount: 0.1
+Monetized Min Amount: 1
 Default Fee: 0.01
 
 *DOGE*
 Min Tip Amount: 5
+Monetized Min Amount: 5
 Default Fee: 1.04
 
 *QTUM*
 Min Tip Amount: 0.02
+Monetized Min Amount: 0.02
 Default Fee: 0.01
 
 *TUBE*
 Min Tip Amount: 0.01
+Monetized Min Amount: -
 Default Fee: 0.01
 
 *PIVX*
 Min Tip Amount: 0.001
+Monetized Min Amount: 0.01
 Default Fee: 0.0004
 
 *ARK*
 Min Tip Amount: 0.1
+Monetized Min Amount: 0.1
 Default Fee: 0.008
 
 
