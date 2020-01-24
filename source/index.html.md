@@ -757,60 +757,60 @@ This command will close the monetized tweet regardless of how many retweets woul
 Please keep in mind that these "fees" are only get withhold, if the txfee is lower at the current point, you will only get deducted the txfee which the network took.
 </aside>
 
-*TZC*
-Min Tip Amount: 0.5
-Monetized Min Amount: 1
-Default Fee: 0.25
+*TZC*<br>
+Min Tip Amount: 0.5<br>
+Monetized Min Amount: 1<br>
+Default Fee: 0.25<br>
 
-*BNB*
-Min Tip Amount: 0.001
-Monetized Min Amount: 0.001
-Default Fee: 0.000375
+*BNB*<br>
+Min Tip Amount: 0.001<br>
+Monetized Min Amount: 0.001<br>
+Default Fee: 0.000375<br>
 
-*NXS*
-Min Tip Amount: 0.1
-Monetized Min Amount: 0.01
-Default Fee: 0.01
+*NXS*<br>
+Min Tip Amount: 0.1<br>
+Monetized Min Amount: 0.01<br>
+Default Fee: 0.01<br>
 
-*UFO*
-Min Tip Amount: 0.2
-Monetized Min Amount: 1
-Default Fee: 0.2
+*UFO*<br>
+Min Tip Amount: 0.2<br>
+Monetized Min Amount: 1<br>
+Default Fee: 0.2<br>
 
-*FTC*
-Min Tip Amount: 0.2
-Monetized Min Amount: 1
-Default Fee: 0.2
+*FTC*<br>
+Min Tip Amount: 0.2<br>
+Monetized Min Amount: 1<br>
+Default Fee: 0.2<br>
 
-*DGB*
-Min Tip Amount: 0.1
-Monetized Min Amount: 1
-Default Fee: 0.01
+*DGB*<br>
+Min Tip Amount: 0.1<br>
+Monetized Min Amount: 1<br>
+Default Fee: 0.01<br>
 
-*DOGE*
-Min Tip Amount: 5
-Monetized Min Amount: 5
-Default Fee: 1.04
+*DOGE*<br>
+Min Tip Amount: 5<br>
+Monetized Min Amount: 5<br>
+Default Fee: 1.04<br>
 
-*QTUM*
-Min Tip Amount: 0.02
-Monetized Min Amount: 0.02
-Default Fee: 0.01
+*QTUM*<br>
+Min Tip Amount: 0.02<br>
+Monetized Min Amount: 0.02<br>
+Default Fee: 0.01<br>
 
-*TUBE*
-Min Tip Amount: 0.01
-Monetized Min Amount: -
-Default Fee: 0.01
+*TUBE*<br>
+Min Tip Amount: 0.01<br>
+Monetized Min Amount: -<br>
+Default Fee: 0.01<br>
 
-*PIVX*
-Min Tip Amount: 0.001
-Monetized Min Amount: 0.01
-Default Fee: 0.0004
+*PIVX*<br>
+Min Tip Amount: 0.001<br>
+Monetized Min Amount: 0.01<br>
+Default Fee: 0.0004<br>
 
-*ARK*
-Min Tip Amount: 0.1
-Monetized Min Amount: 0.1
-Default Fee: 0.008
+*ARK*<br>
+Min Tip Amount: 0.1<br>
+Monetized Min Amount: 0.1<br>
+Default Fee: 0.008<br>
 
 
 
