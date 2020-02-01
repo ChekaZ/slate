@@ -769,7 +769,7 @@ Default Fee: 0.000375<br>
 
 *NXS*<br>
 Min Tip Amount: 0.1<br>
-Monetized Min Amount: 0.01<br>
+Monetized Min Amount: 0.1<br>
 Default Fee: 0.01<br>
 
 *UFO*<br>
