@@ -664,6 +664,76 @@ Example:
  - /auditme
 ```
 
+#Giveaway
+
+`Post a Status with '@coinkit_ give <amount> <userAmount> <coin> '`
+
+This Giveaway feature is designed to assist on giveaways with the drawing of eligible users. The user can manually start the drawing at a point he chooses to.
+
+*How does it work?*
+
+Post a status on Twitter, starting with this line:
+
+`@coinkit_ give <amount> <userAmount> <coin> `
+
+Limits: <userAmount> Max = 10
+
+<aside class="warning">
+Avoid multiple times @coinkit_ mentions in your Tweet, otherwise it wont work properly! If you want to talk about CoinKit, please use "#CoinKit".
+</aside>
+
+If you did everything correctly, @coinkit_ will retweet and like your status as well as reply with this message: 
+
+`Giveaway is set up for this Tweet! <userAmount> lucky Users will each receive <amount> <coin> once <user> resolves this Giveaway.!`
+
+
+<aside class="warning">
+Entering the giveaway via "retweet" is the default setting. ( Other options will be available at a later point )"
+</aside>
+
+*How to draw?*
+
+DM @coinkit_ with `give draw <tweetID> `
+
+You will also get a message which includes this information.
+
+> Tweet Giveaway Usage:
+
+```shell
+
+Post a status on Twitter, starting with this line:
+
+'@coinkit_ give <amount> <userAmount> <coin>'
+
+Example:
+ - @coinkit_ give 8 5 tzc
+ # Sets up a giveaway for 5 people, each winner gets 8 Coins, total of 40 Coins.
+ - @coinkit_ give 500 10 tzc
+ # Sets up a giveaway for 10 people, each winner gets 500 Coins, total of 5000 Coins.
+ - @coinkit_ give 25 4 tzc
+ # Sets up a giveaway for 4 people, each winner gets 25 Coins, total of 100 Coins.
+ - @coinkit_ give 50 2 tzc
+ # Sets up a giveaway for 2 people, each winner gets 50 Coins, total of 100 Coins.
+```
+
+```python
+
+This Feature is not supported on Slack.
+
+```
+
+```ruby
+
+This Feature is not supported on Telegram.
+
+```
+
+```javascript
+
+This Feature is not supported on Discord.
+
+```
+
 #Tweet Monetizing
 
 `Post a Status with '@coinkit_ mon <amount> <userAmount> <coin> <keyword>'`
@@ -790,7 +860,7 @@ Default Fee: 0.01<br>
 *DOGE*<br>
 Min Tip Amount: 5<br>
 Monetized Min Amount: 5<br>
-Default Fee: 1.04<br>
+Default Fee: 2.04<br>
 
 *QTUM*<br>
 Min Tip Amount: 0.02<br>
