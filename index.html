@@ -280,6 +280,9 @@
               </ul>
           </li>
           <li>
+            <a href="#giveaway" class="toc-h1 toc-link" data-title="Giveaway">Giveaway</a>
+          </li>
+          <li>
             <a href="#tweet-monetizing" class="toc-h1 toc-link" data-title="Tweet Monetizing">Tweet Monetizing</a>
               <ul class="toc-list-h2">
                   <li>
@@ -816,7 +819,64 @@ Example:
 </span>
 <span class="nl">Example</span><span class="p">:</span>
  <span class="o">-</span> <span class="sr">/auditm</span><span class="err">e
-</span></code></pre><h1 id='tweet-monetizing'>Tweet Monetizing</h1>
+</span></code></pre><h1 id='giveaway'>Giveaway</h1>
+<p><code>Post a Status with &#39;@coinkit_ give &lt;amount&gt; &lt;userAmount&gt; &lt;coin&gt; &#39;</code></p>
+
+<p>This Giveaway feature is designed to assist on giveaways with the drawing of eligible users. The user can manually start the drawing at a point he chooses to.</p>
+
+<p><em>How does it work?</em></p>
+
+<p>Post a status on Twitter, starting with this line:</p>
+
+<p><code>@coinkit_ give &lt;amount&gt; &lt;userAmount&gt; &lt;coin&gt;</code></p>
+
+<p>Limits: <userAmount> Max = 10</p>
+
+<aside class="warning">
+Avoid multiple times @coinkit_ mentions in your Tweet, otherwise it wont work properly! If you want to talk about CoinKit, please use "#CoinKit".
+</aside>
+
+<p>If you did everything correctly, @coinkit_ will retweet and like your status as well as reply with this message: </p>
+
+<p><code>Giveaway is set up for this Tweet! &lt;userAmount&gt; lucky Users will each receive &lt;amount&gt; &lt;coin&gt; once &lt;user&gt; resolves this Giveaway.!</code></p>
+
+<aside class="warning">
+Entering the giveaway via "retweet" is the default setting. ( Other options will be available at a later point )"
+</aside>
+
+<p><em>How to draw?</em></p>
+
+<p>DM @coinkit_ with <code>give draw &lt;tweetID&gt;</code></p>
+
+<p>You will also get a message which includes this information.</p>
+
+<blockquote>
+<p>Tweet Giveaway Usage:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>
+Post a status on Twitter, starting with this line:
+
+<span class="s1">'@coinkit_ give &lt;amount&gt; &lt;userAmount&gt; &lt;coin&gt;'</span>
+
+Example:
+ - @coinkit_ give 8 5 tzc
+ <span class="c"># Sets up a giveaway for 5 people, each winner gets 8 Coins, total of 40 Coins.</span>
+ - @coinkit_ give 500 10 tzc
+ <span class="c"># Sets up a giveaway for 10 people, each winner gets 500 Coins, total of 5000 Coins.</span>
+ - @coinkit_ give 25 4 tzc
+ <span class="c"># Sets up a giveaway for 4 people, each winner gets 25 Coins, total of 100 Coins.</span>
+ - @coinkit_ give 50 2 tzc
+ <span class="c"># Sets up a giveaway for 2 people, each winner gets 50 Coins, total of 100 Coins.</span>
+</code></pre><pre class="highlight python tab-python"><code>
+<span class="n">This</span> <span class="n">Feature</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">supported</span> <span class="n">on</span> <span class="n">Slack</span><span class="o">.</span>
+
+</code></pre><pre class="highlight ruby tab-ruby"><code>
+<span class="no">This</span> <span class="no">Feature</span> <span class="n">is</span> <span class="n">not</span> <span class="n">supported</span> <span class="n">on</span> <span class="no">Telegram</span><span class="o">.</span>
+
+</code></pre><pre class="highlight javascript tab-javascript"><code>
+<span class="nx">This</span> <span class="nx">Feature</span> <span class="nx">is</span> <span class="nx">not</span> <span class="nx">supported</span> <span class="nx">on</span> <span class="nx">Discord</span><span class="p">.</span>
+
+</code></pre><h1 id='tweet-monetizing'>Tweet Monetizing</h1>
 <p><code>Post a Status with &#39;@coinkit_ mon &lt;amount&gt; &lt;userAmount&gt; &lt;coin&gt; &lt;keyword&gt;&#39;</code></p>
 
 <p>Monetize your tweets with that feature in a truely unique way. Every retweet will instantly receive the given amount of coins, its fully automated and ends after the amount has been paid out.</p>
@@ -902,7 +962,7 @@ Default Fee: 0.000375<br></p>
 
 <p><em>NXS</em><br>
 Min Tip Amount: 0.1<br>
-Monetized Min Amount: 0.01<br>
+Monetized Min Amount: 0.1<br>
 Default Fee: 0.01<br></p>
 
 <p><em>UFO</em><br>
@@ -923,7 +983,7 @@ Default Fee: 0.01<br></p>
 <p><em>DOGE</em><br>
 Min Tip Amount: 5<br>
 Monetized Min Amount: 5<br>
-Default Fee: 1.04<br></p>
+Default Fee: 2.04<br></p>
 
 <p><em>QTUM</em><br>
 Min Tip Amount: 0.02<br>
