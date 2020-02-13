@@ -884,8 +884,8 @@ Default Fee: 0.008<br>
 
 #Gift Codes
 
-Gift Codes are an easy way to get new people introduces to your Coin/Token!
-CoinKit has built a mechanism to easily create Gift Codes which can be redeemed in any CoinKit supported social channel!
+Gift Codes are an easy way to get new people introduced to your Coin/Token!
+CoinKit has built a mechanism to easily create Gift Codes which can be redeemed in any CoinKit supported Social Channels!
 
 DM @coinkit_ with `giftcode create <redeemValue> <AmountOfRedeems> <coin> [Amount of Codes]`
 
