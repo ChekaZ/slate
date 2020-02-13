@@ -882,6 +882,82 @@ Min Tip Amount: 0.1<br>
 Monetized Min Amount: 0.1<br>
 Default Fee: 0.008<br>
 
+#Gift Codes
+
+DM @coinkit_ with `giftcode create <redeemValue> <AmountOfRedeems> <coin> [Amount of Codes]`
+
+> Gift Codes Usage:
+
+```shell
+
+DM @coinkit_ on Twitter with the following line:
+
+'giftcode create <redeemValue> <AmountOfRedeems> <coin> [Amount of Codes]'
+
+Example:
+ - giftcode create 10 20 tzc 2 
+ # Creates 2 Gift Codes with the value of 10 TZC which can be redeemed 20 times each. ( Total value of 400 TZC )
+ - giftcode create 500 5 tzc
+ # Creates 1 Gift Code with the value of 500 TZC which can be redeemed 5 times. ( Total value of 2500 TZC )
+ - giftcode create 25 10 tzc 7
+ # Creates 7 Gift Codes with the value of 25 TZC which can be redeemed 10 times each. ( Total value of 1750 TZC )
+```
+
+```python
+
+This Feature is not supported on Slack.
+
+```
+
+```ruby
+
+This Feature is not supported on Telegram.
+
+```
+
+```javascript
+
+This Feature is not supported on Discord.
+
+```
+
+##Redeem Gift Codes
+
+DM @coinkit_ with `redeem <GiftCode>`
+
+> Gift Codes Usage:
+
+```shell
+
+DM @coinkit_ on Twitter with the following line:
+
+'redeem <GiftCode'
+
+```
+
+```python
+
+Message CoinKit in private:
+
+'/redeem <GiftCode'
+
+```
+
+```ruby
+
+Message CoinKit in private:
+
+'/redeem <GiftCode'
+
+```
+
+```javascript
+
+Message CoinKit in private:
+
+'/redeem <GiftCode'
+
+```
 
 
 #Support 
