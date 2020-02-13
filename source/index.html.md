@@ -940,7 +940,7 @@ Command: `redeem <GiftCode>`
 
 DM @coinkit_ on Twitter with the following line:
 
-'redeem <GiftCode'
+'redeem <GiftCode>'
 
 ```
 
@@ -948,7 +948,7 @@ DM @coinkit_ on Twitter with the following line:
 
 Message CoinKit in private:
 
-'/redeem <GiftCode'
+'/redeem <GiftCode>'
 
 ```
 
@@ -956,7 +956,7 @@ Message CoinKit in private:
 
 Message CoinKit in private:
 
-'/redeem <GiftCode'
+'/redeem <GiftCode>'
 
 ```
 
@@ -964,7 +964,7 @@ Message CoinKit in private:
 
 Message CoinKit in private:
 
-'/redeem <GiftCode'
+'/redeem <GiftCode>'
 
 ```
 
