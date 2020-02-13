@@ -297,6 +297,14 @@
             <a href="#mintips-amp-txfees" class="toc-h1 toc-link" data-title="MinTips &amp; TxFees">MinTips &amp; TxFees</a>
           </li>
           <li>
+            <a href="#gift-codes" class="toc-h1 toc-link" data-title="Gift Codes">Gift Codes</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#redeem-gift-codes" class="toc-h2 toc-link" data-title="Redeem Gift Codes">Redeem Gift Codes</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
             <a href="#support" class="toc-h1 toc-link" data-title="Support">Support</a>
               <ul class="toc-list-h2">
                   <li>
@@ -830,7 +838,7 @@ Example:
 
 <p><code>@coinkit_ give &lt;amount&gt; &lt;userAmount&gt; &lt;coin&gt;</code></p>
 
-<p>Limits: <code>&lt;userAmount&gt;</code> Max = 10</p>
+<p>Limits: <userAmount> Max = 10</p>
 
 <aside class="warning">
 Avoid multiple times @coinkit_ mentions in your Tweet, otherwise it wont work properly! If you want to talk about CoinKit, please use "#CoinKit".
@@ -1004,7 +1012,60 @@ Default Fee: 0.0004<br></p>
 Min Tip Amount: 0.1<br>
 Monetized Min Amount: 0.1<br>
 Default Fee: 0.008<br></p>
-<h1 id='support'>Support</h1>
+<h1 id='gift-codes'>Gift Codes</h1>
+<p>DM @coinkit_ with <code>giftcode create &lt;redeemValue&gt; &lt;AmountOfRedeems&gt; &lt;coin&gt; [Amount of Codes]</code></p>
+
+<blockquote>
+<p>Gift Codes Usage:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>
+DM @coinkit_ on Twitter with the following line:
+
+<span class="s1">'giftcode create &lt;redeemValue&gt; &lt;AmountOfRedeems&gt; &lt;coin&gt; [Amount of Codes]'</span>
+
+Example:
+ - giftcode create 10 20 tzc 2 
+ <span class="c"># Creates 2 Gift Codes with the value of 10 TZC which can be redeemed 20 times each. ( Total value of 400 TZC )</span>
+ - giftcode create 500 5 tzc
+ <span class="c"># Creates 1 Gift Code with the value of 500 TZC which can be redeemed 5 times. ( Total value of 2500 TZC )</span>
+ - giftcode create 25 10 tzc 7
+ <span class="c"># Creates 7 Gift Codes with the value of 25 TZC which can be redeemed 10 times each. ( Total value of 1750 TZC )</span>
+</code></pre><pre class="highlight python tab-python"><code>
+<span class="n">This</span> <span class="n">Feature</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">supported</span> <span class="n">on</span> <span class="n">Slack</span><span class="o">.</span>
+
+</code></pre><pre class="highlight ruby tab-ruby"><code>
+<span class="no">This</span> <span class="no">Feature</span> <span class="n">is</span> <span class="n">not</span> <span class="n">supported</span> <span class="n">on</span> <span class="no">Telegram</span><span class="o">.</span>
+
+</code></pre><pre class="highlight javascript tab-javascript"><code>
+<span class="nx">This</span> <span class="nx">Feature</span> <span class="nx">is</span> <span class="nx">not</span> <span class="nx">supported</span> <span class="nx">on</span> <span class="nx">Discord</span><span class="p">.</span>
+
+</code></pre><h2 id='redeem-gift-codes'>Redeem Gift Codes</h2>
+<p>DM @coinkit_ with <code>redeem &lt;GiftCode&gt;</code></p>
+
+<blockquote>
+<p>Gift Codes Usage:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>
+DM @coinkit_ on Twitter with the following line:
+
+<span class="s1">'redeem &lt;GiftCode'</span>
+
+</code></pre><pre class="highlight python tab-python"><code>
+<span class="n">Message</span> <span class="n">CoinKit</span> <span class="ow">in</span> <span class="n">private</span><span class="p">:</span>
+
+<span class="s">'/redeem &lt;GiftCode'</span>
+
+</code></pre><pre class="highlight ruby tab-ruby"><code>
+<span class="no">Message</span> <span class="no">CoinKit</span> <span class="k">in</span> <span class="ss">private:
+
+</span><span class="s1">'/redeem &lt;GiftCode'</span>
+
+</code></pre><pre class="highlight javascript tab-javascript"><code>
+<span class="nx">Message</span> <span class="nx">CoinKit</span> <span class="k">in</span> <span class="kr">private</span><span class="p">:</span>
+
+<span class="s1">'/redeem &lt;GiftCode'</span>
+
+</code></pre><h1 id='support'>Support</h1>
 <p>We are happy to receive Bug reports, feedback or suggestions, please use the following commands to send us your thoughts!</p>
 
 <p>Official CoinKit Discord: <a href='https://discord.coinkit.de'> CoinKit Discord </a></p>
