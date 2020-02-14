@@ -979,6 +979,18 @@ Message CoinKit in private:
 
 ```
 
+##Gift Codes Status
+
+Check the status of a Gift Code, see who made it, what the redeem value is and how many redeems are left.
+
+Command: `giftcode status <GiftCode>`
+
+##Gift Code QR
+
+You can easily create a QR code out of the Gift Codes to spread your code more easily!
+
+Command: `giftcode qr <GiftCode>`
+
 
 #Support 
 
