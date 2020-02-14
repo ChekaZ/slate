@@ -830,56 +830,67 @@ Please keep in mind that these "fees" are only get withhold, if the txfee is low
 *TZC*<br>
 Min Tip Amount: 0.5<br>
 Monetized Min Amount: 1<br>
+Gift Code Min Amount: 5<br>
 Default Fee: 0.25<br>
 
 *BNB*<br>
 Min Tip Amount: 0.001<br>
 Monetized Min Amount: 0.001<br>
+Gift Code Min Amount: 0.005<br>
 Default Fee: 0.000375<br>
 
 *NXS*<br>
 Min Tip Amount: 0.1<br>
 Monetized Min Amount: 0.1<br>
+Gift Code Min Amount: 0.5<br>
 Default Fee: 0.01<br>
 
 *UFO*<br>
 Min Tip Amount: 0.2<br>
 Monetized Min Amount: 1<br>
+Gift Code Min Amount: 50<br>
 Default Fee: 0.2<br>
 
 *FTC*<br>
 Min Tip Amount: 0.2<br>
 Monetized Min Amount: 1<br>
+Gift Code Min Amount: 5<br>
 Default Fee: 0.2<br>
 
 *DGB*<br>
 Min Tip Amount: 0.1<br>
 Monetized Min Amount: 1<br>
+Gift Code Min Amount: 5<br>
 Default Fee: 0.01<br>
 
 *DOGE*<br>
 Min Tip Amount: 5<br>
 Monetized Min Amount: 5<br>
+Gift Code Min Amount: 5<br>
 Default Fee: 2.04<br>
 
 *QTUM*<br>
 Min Tip Amount: 0.02<br>
 Monetized Min Amount: 0.02<br>
+Gift Code Min Amount: 0.05<br>
 Default Fee: 0.01<br>
 
 *TUBE*<br>
 Min Tip Amount: 0.01<br>
 Monetized Min Amount: -<br>
+Gift Code Min Amount: 5<br>
 Default Fee: 0.01<br>
 
 *PIVX*<br>
 Min Tip Amount: 0.001<br>
 Monetized Min Amount: 0.01<br>
+Gift Code Min Amount: 0.1<br>
 Default Fee: 0.0004<br>
 
 *ARK*<br>
 Min Tip Amount: 0.1<br>
 Monetized Min Amount: 0.1<br>
+Gift Code Min Amount: 0.5<br>
 Default Fee: 0.008<br>
 
 #Gift Codes
