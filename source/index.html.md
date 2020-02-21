@@ -128,9 +128,11 @@ Example:
 
 ## Deposit
 
-`Command: Deposit`
+`Command: Deposit [number]`
 
 To be able to tip people, you first have to load up your wallet with a desired amount of Coins. With this command your personal deposit address will be created, so the Coins you transfer there will be assigned to you. Now you can get started.
+
+Parameter [number] is only for Lightning invoices.
 
 > Deposit Usage:
 
@@ -170,6 +172,8 @@ Example:
 
 Balance will show your Confirmed and Unconfirmed Balance. After you have deposited Coins to your Deposit-Address, you need to wait for Confirmations, Confirmations depend on the Coin you are using and it may take up to a few minutes until they are confirmed. Unconfirmed Coins are shown in round brackets.
 When your Coins are confirmed, you are ready to tip!
+
+
 
 > Balance Usage:
 
@@ -863,7 +867,7 @@ Monetized Min Amount: 1<br>
 Gift Code Min Amount: 5<br>
 Default Fee: 0.01<br>
 
-*DOGE*<br>
+*DOGE*<br>+
 Min Tip Amount: 5<br>
 Monetized Min Amount: 5<br>
 Gift Code Min Amount: 5<br>
