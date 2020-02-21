@@ -762,7 +762,7 @@ If a Keyword is included:
 To be eligible to get Coins when a Keyword is choosen, the tweets needs to get retweeted with a comment, the comment needs to have the keyword included.
 
 <aside class="warning">
-Available Coins for Tweet Monetizing: TZC, PIVX, DOGE, UFO, BNB, QTUM, FTC, DGB, NXS, ARK
+Available Coins for Tweet Monetizing: TZC, PIVX, DOGE, UFO, BNB, QTUM, FTC, DGB, NXS, ARK, BTC
 </aside>
 
 > Tweet Monetization Usage:
@@ -824,7 +824,7 @@ This command will close the monetized tweet regardless of how many retweets woul
 `All Tips are on-chain, so a txfee needs to be included into every tip, here is the list of MinTips & TxFees for each Coin`
 
 <aside class="warning">
-Please keep in mind that these "fees" are only get withhold, if the txfee is lower at the current point, you will only get deducted the txfee which the network took.
+Please keep in mind that these "fees" are only withheld, if the txfee is lower at the current point, you will only get deducted the txfee which the network took.
 </aside>
 
 *TZC*<br>
@@ -892,6 +892,22 @@ Min Tip Amount: 0.1<br>
 Monetized Min Amount: 0.1<br>
 Gift Code Min Amount: 0.5<br>
 Default Fee: 0.008<br>
+
+*BTC (Lightning) Tipping*<br>
+Min Tip Amount: 5 sats<br>
+Monetized Min Amount: 5 sats<br>
+Gift Code Min Amount: 500 sats <br>
+Default Fee: 0 sats<br>
+
+*BTC Withdraw/Deposit*<br>
+Min Withdraw: 50000 sats<br>
+Max Withdraw: 50000000 sats<br>
+Default Fee Withdraw: 8000 sats<br>
+
+*BTC (Lightning) Withdraw/Deposit*<br>
+Min Withdraw: 5 sats<br>
+Max Withdraw: 50000 sats<br>
+Default Fee Withdraw: 1 sats<br>
 
 #Gift Codes
 
