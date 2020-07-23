@@ -785,28 +785,28 @@ convert <span class="o">[</span>amount] &lt;fromCoin&gt; <span class="o">[</span
 Example:
  - convert 20 nxs to tzc
  - convert 800 tzc to usd
- - convert 10 tube to pivx
+ - convert 10 tube to ark
 </code></pre><pre class="highlight python tab-python"><code>
 <span class="n">convert</span> <span class="p">[</span><span class="n">amount</span><span class="p">]</span> <span class="o">&lt;</span><span class="n">fromCoin</span><span class="o">&gt;</span> <span class="p">[</span><span class="n">to</span><span class="o">|</span><span class="ow">in</span><span class="p">]</span> <span class="o">&lt;</span><span class="n">toCoin</span><span class="o">|</span><span class="n">usd</span><span class="o">&gt;</span>
 
 <span class="n">Example</span><span class="p">:</span>
  <span class="o">-</span> <span class="o">/</span><span class="n">convert</span> <span class="mi">20</span> <span class="n">nxs</span> <span class="n">to</span> <span class="n">tzc</span>
  <span class="o">-</span> <span class="o">/</span><span class="n">convert</span> <span class="mi">800</span> <span class="n">tzc</span> <span class="n">to</span> <span class="n">usd</span>
- <span class="o">-</span> <span class="o">/</span><span class="n">convert</span> <span class="mi">10</span> <span class="n">tube</span> <span class="n">to</span> <span class="n">pivx</span>
+ <span class="o">-</span> <span class="o">/</span><span class="n">convert</span> <span class="mi">10</span> <span class="n">tube</span> <span class="n">to</span> <span class="n">ark</span>
 </code></pre><pre class="highlight ruby tab-ruby"><code>
 <span class="n">convert</span> <span class="p">[</span><span class="n">amount</span><span class="p">]</span> <span class="o">&lt;</span><span class="n">fromCoin</span><span class="o">&gt;</span> <span class="p">[</span><span class="n">to</span><span class="o">|</span><span class="k">in</span><span class="p">]</span> <span class="o">&lt;</span><span class="n">toCoin</span><span class="o">|</span><span class="n">usd</span><span class="o">&gt;</span>
 
 <span class="no">Example</span><span class="p">:</span>
  <span class="o">-</span> <span class="sr">/convert 20 nxs to tzc
  - /</span><span class="n">convert</span> <span class="mi">800</span> <span class="n">tzc</span> <span class="n">to</span> <span class="n">usd</span>
- <span class="o">-</span> <span class="sr">/convert 10 tube to pivx
+ <span class="o">-</span> <span class="sr">/convert 10 tube to ark
 </span></code></pre><pre class="highlight javascript tab-javascript"><code>
 <span class="nx">convert</span> <span class="p">[</span><span class="nx">amount</span><span class="p">]</span> <span class="o">&lt;</span><span class="nx">fromCoin</span><span class="o">&gt;</span> <span class="p">[</span><span class="nx">to</span><span class="o">|</span><span class="k">in</span><span class="p">]</span> <span class="o">&lt;</span><span class="nx">toCoin</span><span class="o">|</span><span class="nx">usd</span><span class="o">&gt;</span>
 
 <span class="nx">Example</span><span class="p">:</span>
  <span class="o">-</span> <span class="sr">/convert 20 nxs to tz</span><span class="err">c
 </span> <span class="o">-</span> <span class="sr">/convert 800 tzc to us</span><span class="err">d
-</span> <span class="o">-</span> <span class="sr">/convert 10 tube to piv</span><span class="err">x
+</span> <span class="o">-</span> <span class="sr">/convert 10 tube to ar</span><span class="err">k
 </span></code></pre><h2 id='audit'>Audit</h2>
 <p><code>Command: auditme</code></p>
 
@@ -918,7 +918,7 @@ Avoid multiple times @coinkit_ mentions in your Tweet, otherwise it wont work pr
 <p>To be eligible to get Coins when a Keyword is choosen, the tweets needs to get retweeted with a comment, the comment needs to have the keyword included.</p>
 
 <aside class="warning">
-Available Coins for Tweet Monetizing: TZC, PIVX, DOGE, UFO, BNB, QTUM, FTC, DGB, NXS, ARK, BTC, NIM, LTC
+Available Coins for Tweet Monetizing: TZC, DOGE, UFO, BNB, QTUM, FTC, DGB, NXS, ARK, BTC, NIM, LTC, XTZ
 </aside>
 
 <blockquote>
@@ -1043,6 +1043,13 @@ Min Tip Amount: 0.0005<br>
 Monetized Min Amount: 0.0005<br>
 Gift Code Min Amount: 0.01<br>
 Default Fee: 0.0001<br></p>
+
+<p><em>XTZ</em><br>
+Min Tip Amount: 0.01<br>
+Monetized Min Amount: 0.01<br>
+Gift Code Min Amount: 0.1<br>
+Default Fee: 0.002<br>
+Default Fee to non Burned: 0.257<br></p>
 
 <p><em>BTC (Lightning) Tipping</em><br>
 Min Tip Amount: 5 sats<br>
