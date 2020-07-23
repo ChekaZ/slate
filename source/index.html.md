@@ -601,7 +601,7 @@ convert [amount] <fromCoin> [to|in] <toCoin|usd>
 Example:
  - convert 20 nxs to tzc
  - convert 800 tzc to usd
- - convert 10 tube to pivx
+ - convert 10 tube to ark
 ```
 ```python
 
@@ -610,7 +610,7 @@ convert [amount] <fromCoin> [to|in] <toCoin|usd>
 Example:
  - /convert 20 nxs to tzc
  - /convert 800 tzc to usd
- - /convert 10 tube to pivx
+ - /convert 10 tube to ark
 ```
 ```ruby
 
@@ -619,7 +619,7 @@ convert [amount] <fromCoin> [to|in] <toCoin|usd>
 Example:
  - /convert 20 nxs to tzc
  - /convert 800 tzc to usd
- - /convert 10 tube to pivx
+ - /convert 10 tube to ark
 ```
 ```javascript
 
@@ -628,7 +628,7 @@ convert [amount] <fromCoin> [to|in] <toCoin|usd>
 Example:
  - /convert 20 nxs to tzc
  - /convert 800 tzc to usd
- - /convert 10 tube to pivx
+ - /convert 10 tube to ark
 ```
 
 ## Audit
@@ -766,7 +766,7 @@ If a Keyword is included:
 To be eligible to get Coins when a Keyword is choosen, the tweets needs to get retweeted with a comment, the comment needs to have the keyword included.
 
 <aside class="warning">
-Available Coins for Tweet Monetizing: TZC, PIVX, DOGE, UFO, BNB, QTUM, FTC, DGB, NXS, ARK, BTC, NIM, LTC
+Available Coins for Tweet Monetizing: TZC, DOGE, UFO, BNB, QTUM, FTC, DGB, NXS, ARK, BTC, NIM, LTC, XTZ
 </aside>
 
 > Tweet Monetization Usage:
@@ -908,6 +908,13 @@ Min Tip Amount: 0.0005<br>
 Monetized Min Amount: 0.0005<br>
 Gift Code Min Amount: 0.01<br>
 Default Fee: 0.0001<br>
+
+*XTZ*<br>
+Min Tip Amount: 0.01<br>
+Monetized Min Amount: 0.01<br>
+Gift Code Min Amount: 0.1<br>
+Default Fee: 0.002<br>
+Default Fee to non Burned: 0.257<br>
 
 *BTC (Lightning) Tipping*<br>
 Min Tip Amount: 5 sats<br>
