@@ -766,7 +766,7 @@ If a Keyword is included:
 To be eligible to get Coins when a Keyword is choosen, the tweets needs to get retweeted with a comment, the comment needs to have the keyword included.
 
 <aside class="warning">
-Available Coins for Tweet Monetizing: TZC, DOGE, UFO, BNB, QTUM, FTC, DGB, NXS, ARK, BTC, NIM, LTC, XTZ, SMART
+Available Coins for Tweet Monetizing: TZC, DOGE, UFO, BNB, QTUM, FTC, DGB, NXS, ARK, BTC, NIM, LTC, XTZ, SMART, DVT
 </aside>
 
 > Tweet Monetization Usage:
@@ -921,6 +921,12 @@ Min Tip Amount: 0.5<br>
 Monetized Min Amount: 1.0<br>
 Gift Code Min Amount: 5.0<br>
 Default Fee: 0.05<br>
+
+*DVT*<br>
+Min Tip Amount: 5<br>
+Monetized Min Amount: 5.0<br>
+Gift Code Min Amount: 25.0<br>
+Default Fee: 1<br>
 
 *BTC (Lightning) Tipping*<br>
 Min Tip Amount: 5 sats<br>
