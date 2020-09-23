@@ -822,6 +822,71 @@ To close a monetized tweet manually, you have to go into the DMs with @Coinkit_ 
 
 This command will close the monetized tweet regardless of how many retweets would be left.
 
+#Tweet Monetizing ( Comment )
+
+`Post a Status with '@coinkit_ com/comment <amount> <userAmount> <coin> [<keyword>]'`
+
+Spread your message with that new unique feature! Users who retweet and comment with the keyword within a sentence, instantly receive the given amount of coins, its fully automated and ends after the amount has been paid out.
+
+If no keyword is choosen, a simple sentence/comment will do it.
+
+*How does it work?*
+
+Post a status on Twitter, starting with this line:
+
+`@coinkit_ com/comment <amount> <userAmount> <coin> [<keyword>]`
+
+If you did everything correctly, @coinkit_ will retweet and like your status as well as reply with this message: 
+
+`Monetizing Comment is set up for this Tweet! The next <userAmount> Users will each receive <amount> <coin> from <user> for retweeting and commenting.`
+
+If a Keyword is included:
+
+`Monetizing Comment is set up for this Tweet! The next <userAmount> Users will each receive <amount> <coin> from Totenfluch for retweeting and commenting. The keyword is <keyword> - Use it in your comment!`
+
+To be eligible to get Coins, you have to retweet AND comment with a sentence with includes the keyword.
+
+<aside class="warning">
+Available Coins for Tweet Monetizing (Comment) : TZC, DOGE, UFO, BNB, QTUM, FTC, DGB, NXS, ARK, BTC, NIM, LTC, XTZ, SMART, DVT
+</aside>
+
+> Tweet Monetization Usage:
+
+```shell
+
+Post a status on Twitter, starting with this line:
+
+'@coinkit_ com <amount> <userAmount> <coin>'
+
+Example:
+ - @coinkit_ com 10 20 tzc
+ # Monetizes a tweet for 20 people, each user gets 10 Coins, total of 200 Coins.
+ - @coinkit_ com 500 12 nxs
+ # Monetizes a tweet for 12 people, each user gets 500 Coins, total of 6000 Coins.
+ - @coinkit_ com 25 10 btc
+ # Monetizes a tweet for 10 people, each user gets 25 Coins, total of 250 Coins.
+ - @coinkit_ com 50 50 ark
+ # Monetizes a tweet for 50 people, each user gets 50 Coins, total of 2500 Coins.
+```
+
+```python
+
+This Feature is not supported on Slack.
+
+```
+
+```ruby
+
+This Feature is not supported on Telegram.
+
+```
+
+```javascript
+
+This Feature is not supported on Discord.
+
+```
+
 
 #MinTips & TxFees
 
