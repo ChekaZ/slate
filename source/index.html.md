@@ -963,8 +963,8 @@ Gift Code Min Amount: 0.5<br>
 Default Fee: 0.008<br>
 
 *NIM*<br>
-Min Tip Amount: 10<br>
-Monetized Min Amount: 10<br>
+Min Tip Amount: 1<br>
+Monetized Min Amount: 1<br>
 Gift Code Min Amount: 10<br>
 Default Fee: 0.005<br>
 
