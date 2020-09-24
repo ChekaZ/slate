@@ -294,6 +294,9 @@
               </ul>
           </li>
           <li>
+            <a href="#tweet-monetizing-comment" class="toc-h1 toc-link" data-title="Tweet Monetizing ( Comment )">Tweet Monetizing ( Comment )</a>
+          </li>
+          <li>
             <a href="#mintips-amp-txfees" class="toc-h1 toc-link" data-title="MinTips &amp; TxFees">MinTips &amp; TxFees</a>
           </li>
           <li>
@@ -959,7 +962,60 @@ Example:
 <p><code>mon end &lt;tweetId&gt;</code></p>
 
 <p>This command will close the monetized tweet regardless of how many retweets would be left.</p>
-<h1 id='mintips-amp-txfees'>MinTips &amp; TxFees</h1>
+<h1 id='tweet-monetizing-comment'>Tweet Monetizing ( Comment )</h1>
+<p><code>Post a Status with &#39;@coinkit_ com/comment &lt;amount&gt; &lt;userAmount&gt; &lt;coin&gt; [&lt;keyword&gt;]&#39;</code></p>
+
+<p>Spread your message with that new unique feature! Users who retweet and comment with the keyword within a sentence, instantly receive the given amount of coins, its fully automated and ends after the amount has been paid out.</p>
+
+<p>If no keyword is choosen, a simple sentence/comment will do it.</p>
+
+<p><em>How does it work?</em></p>
+
+<p>Post a status on Twitter, starting with this line:</p>
+
+<p><code>@coinkit_ com/comment &lt;amount&gt; &lt;userAmount&gt; &lt;coin&gt; [&lt;keyword&gt;]</code></p>
+
+<p>If you did everything correctly, @coinkit_ will retweet and like your status as well as reply with this message: </p>
+
+<p><code>Monetizing Comment is set up for this Tweet! The next &lt;userAmount&gt; Users will each receive &lt;amount&gt; &lt;coin&gt; from &lt;user&gt; for retweeting and commenting.</code></p>
+
+<p>If a Keyword is included:</p>
+
+<p><code>Monetizing Comment is set up for this Tweet! The next &lt;userAmount&gt; Users will each receive &lt;amount&gt; &lt;coin&gt; from Totenfluch for retweeting and commenting. The keyword is &lt;keyword&gt; - Use it in your comment!</code></p>
+
+<p>To be eligible to get Coins, you have to retweet AND comment with a sentence with includes the keyword.</p>
+
+<aside class="warning">
+Available Coins for Tweet Monetizing (Comment) : TZC, DOGE, UFO, BNB, QTUM, FTC, DGB, NXS, ARK, BTC, NIM, LTC, XTZ, SMART, DVT
+</aside>
+
+<blockquote>
+<p>Tweet Monetization Usage:</p>
+</blockquote>
+<pre class="highlight shell tab-shell"><code>
+Post a status on Twitter, starting with this line:
+
+<span class="s1">'@coinkit_ com &lt;amount&gt; &lt;userAmount&gt; &lt;coin&gt;'</span>
+
+Example:
+ - @coinkit_ com 10 20 tzc
+ <span class="c"># Monetizes a tweet for 20 people, each user gets 10 Coins, total of 200 Coins.</span>
+ - @coinkit_ com 500 12 nxs
+ <span class="c"># Monetizes a tweet for 12 people, each user gets 500 Coins, total of 6000 Coins.</span>
+ - @coinkit_ com 25 10 btc
+ <span class="c"># Monetizes a tweet for 10 people, each user gets 25 Coins, total of 250 Coins.</span>
+ - @coinkit_ com 50 50 ark
+ <span class="c"># Monetizes a tweet for 50 people, each user gets 50 Coins, total of 2500 Coins.</span>
+</code></pre><pre class="highlight python tab-python"><code>
+<span class="n">This</span> <span class="n">Feature</span> <span class="ow">is</span> <span class="ow">not</span> <span class="n">supported</span> <span class="n">on</span> <span class="n">Slack</span><span class="o">.</span>
+
+</code></pre><pre class="highlight ruby tab-ruby"><code>
+<span class="no">This</span> <span class="no">Feature</span> <span class="n">is</span> <span class="n">not</span> <span class="n">supported</span> <span class="n">on</span> <span class="no">Telegram</span><span class="o">.</span>
+
+</code></pre><pre class="highlight javascript tab-javascript"><code>
+<span class="nx">This</span> <span class="nx">Feature</span> <span class="nx">is</span> <span class="nx">not</span> <span class="nx">supported</span> <span class="nx">on</span> <span class="nx">Discord</span><span class="p">.</span>
+
+</code></pre><h1 id='mintips-amp-txfees'>MinTips &amp; TxFees</h1>
 <p><code>All Tips are on-chain, so a txfee needs to be included into every tip, here is the list of MinTips &amp; TxFees for each Coin</code></p>
 
 <aside class="warning">
@@ -1033,8 +1089,8 @@ Gift Code Min Amount: 0.5<br>
 Default Fee: 0.008<br></p>
 
 <p><em>NIM</em><br>
-Min Tip Amount: 10<br>
-Monetized Min Amount: 10<br>
+Min Tip Amount: 1<br>
+Monetized Min Amount: 1<br>
 Gift Code Min Amount: 10<br>
 Default Fee: 0.005<br></p>
 
