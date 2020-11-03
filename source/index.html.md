@@ -31,6 +31,10 @@ Discord: <a href='https://discordapp.com/api/oauth2/authorize?client_id=54646392
 
 Coinkit has a lot of functions which will be explained in this section.
 
+<aside class="warning">
+Please Backup your CoinKit Account! Do '/auditme' and store the CoinKitID safely.
+</aside>
+
 ## Tiphelp
 
 `Command: Tiphelp`
@@ -766,7 +770,7 @@ If a Keyword is included:
 To be eligible to get Coins when a Keyword is choosen, the tweets needs to get retweeted with a comment, the comment needs to have the keyword included.
 
 <aside class="warning">
-Available Coins for Tweet Monetizing: TZC, DOGE, UFO, BNB, QTUM, FTC, DGB, NXS, ARK, BTC, NIM, LTC, XTZ, SMART, DVT
+Available Coins for Tweet Monetizing: TZC, DOGE, UFO, BNB, QTUM, FTC, DGB, NXS, ARK, BTC, NIM, LTC, XTZ, SMART, DVT, BCH
 </aside>
 
 > Tweet Monetization Usage:
@@ -992,6 +996,12 @@ Min Tip Amount: 5<br>
 Monetized Min Amount: 5.0<br>
 Gift Code Min Amount: 25.0<br>
 Default Fee: 1<br>
+
+*BCH*<br>
+Min Tip Amount: 0.0001<br>
+Monetized Min Amount: 0.0001<br>
+Gift Code Min Amount: 0.001<br>
+Default Fee: 0.00004<br>
 
 *BTC (Lightning) Tipping*<br>
 Min Tip Amount: 5 sats<br>
