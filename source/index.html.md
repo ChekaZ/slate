@@ -32,7 +32,7 @@ Discord: <a href='https://discordapp.com/api/oauth2/authorize?client_id=54646392
 Coinkit has a lot of functions which will be explained in this section.
 
 <aside class="warning">
-Please Backup your CoinKit Account! Do '/auditme' and store the CoinKitID safely.
+Please Backup your CoinKit Account! Do '/auditme' and link it to the CoinKit Web Wallet <a href='https://wallet.coinkit.de'>CoinKitWallet</a>>
 </aside>
 
 ## Tiphelp
@@ -686,9 +686,6 @@ Post a status on Twitter, starting with this line:
 
 Limits: <userAmount> Max = 10
 
-<aside class="warning">
-Avoid multiple times @coinkit_ mentions in your Tweet, otherwise it wont work properly! If you want to talk about CoinKit, please use "#CoinKit".
-</aside>
 
 If you did everything correctly, @coinkit_ will retweet and like your status as well as reply with this message: 
 
@@ -851,7 +848,7 @@ If a Keyword is included:
 To be eligible to get Coins, you have to retweet AND comment with a sentence with includes the keyword.
 
 <aside class="warning">
-Available Coins for Tweet Monetizing (Comment) : TZC, DOGE, UFO, BNB, QTUM, FTC, DGB, NXS, ARK, BTC, NIM, LTC, XTZ, SMART, DVT
+Available Coins for Tweet Monetizing (Comment) : TZC, DOGE, UFO, BNB, QTUM, FTC, DGB, NXS, ARK, BTC, NIM, LTC, XTZ, SMART, DVT, BCH, TRON
 </aside>
 
 > Tweet Monetization Usage:
@@ -954,12 +951,6 @@ Monetized Min Amount: -<br>
 Gift Code Min Amount: 5<br>
 Default Fee: 0.01<br>
 
-*PIVX*<br>
-Min Tip Amount: 0.001<br>
-Monetized Min Amount: 0.01<br>
-Gift Code Min Amount: 0.1<br>
-Default Fee: 0.0004<br>
-
 *ARK*<br>
 Min Tip Amount: 0.1<br>
 Monetized Min Amount: 0.1<br>
@@ -996,6 +987,12 @@ Min Tip Amount: 5<br>
 Monetized Min Amount: 5.0<br>
 Gift Code Min Amount: 25.0<br>
 Default Fee: 1<br>
+
+*TRON*<br>
+Min Tip Amount: 0.01<br>
+Monetized Min Amount: 0.01<br>
+Gift Code Min Amount: 0.1<br>
+Default Fee: 0.003<br>
 
 *BCH*<br>
 Min Tip Amount: 0.0001<br>
