@@ -1016,6 +1016,23 @@ Min Withdraw: 5 sats<br>
 Max Withdraw: 50000 sats<br>
 Default Fee Withdraw: 1 sats<br>
 
+#MinTips & Fees (Token)
+
+`All Tips are on-chain, so a txfee needs to be included into every tip, here is the list of MinTips & TxFees for each Coin`
+
+<aside class="warning">
+Please keep in mind that these "fees" are only withheld, if the txfee is lower at the current point, you will only get deducted the txfee which the network took.
+</aside>
+
+`TRON TOKENS`
+
+*USDT-TRX*<br>
+Min Tip Amount: 0.1<br>
+Monetized Min Amount: 0.1<br>
+Gift Code Min Amount: Not Available<br>
+Default Fee: 0.003 TRX<br>
+
+
 #Gift Codes
 
 Gift Codes are an easy way to get new people introduced to your Coin/Token!
