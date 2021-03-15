@@ -929,7 +929,7 @@ Default Fee: 0.2<br>
 
 *DGB*<br>
 Min Tip Amount: 0.1<br>
-Monetized Min Amount: 1<br>
+Monetized Min Amount: 0.5<br>
 Gift Code Min Amount: 5<br>
 Default Fee: 0.01<br>
 
@@ -1028,9 +1028,15 @@ Please keep in mind that these "fees" are only withheld, if the txfee is lower a
 
 *USDT-TRX*<br>
 Min Tip Amount: 0.1<br>
-Monetized Min Amount: 0.1<br>
+Monetized Min Amount: Not Available<br>
 Gift Code Min Amount: Not Available<br>
-Default Fee: 0.003 TRX<br>
+Default Fee: 5 TRX ( TRON Contract )<br>
+
+*KLV*<br>
+Min Tip Amount: 0.1<br>
+Monetized Min Amount: Not Available<br>
+Gift Code Min Amount: Not Available<br>
+Default Fee: 5 TRX ( TRON Contract )<br>
 
 
 #Gift Codes
